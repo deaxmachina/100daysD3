@@ -1,3 +1,5 @@
+// Code based on the tutorial by Curran Kelleher https://www.youtube.com/channel/UCSwd_9jyX4YtDYm9p9MxQqw
+
 import React, { useState } from 'react';
 import { useWorldAtlas } from './Map/useWorldAtlas';
 import { useData } from './useData';

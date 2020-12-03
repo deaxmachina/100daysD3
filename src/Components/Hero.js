@@ -14,6 +14,7 @@ const Hero = () => {
             Follow my journey of learning D3 with React. 
             <FontAwesomeIcon icon={faStar} size="md"/>
           </p>
+          <p>Dea Bankova</p>
           <div class="arrow"></div>
       </div>
     </>

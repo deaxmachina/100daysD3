@@ -1,0 +1,40 @@
+pre {
+  font-size: 7em;
+}
+
+/* for the map */
+.marks .land {
+  fill: #ececec;
+}
+.marks .sphere {
+  fill: #fbfbfb;
+}
+.marks .interiors {
+  fill: none;
+  stroke: #d9dfe0;
+}
+.marks .graticules {
+  fill: none;
+  stroke: #ececec;
+}
+circle {
+  fill: #137B80;
+  opacity: 0.3;
+}
+
+/* for the date histogram */
+.tick line {
+  fill: none;
+  stroke: #ececec;
+}
+.tick text {
+  fill: #635F5D;
+  font-size: 0.6em;
+}
+.mark {
+  fill: #137B80;
+}
+.axis-label {
+  font-size: 0.6em;
+  fill: #635F5D;
+}

@@ -1,0 +1,16 @@
+location,count
+Street/Highway,53853
+Dwelling,18208
+Custody Block,5505
+"Open ground (e.g. park, car park, field)",3999
+Other,2408
+Retail Premises,1715
+Hospital/A&E (non-mental-health setting),1593
+Police station (excluding custody block),1406
+Public Transport,702
+Mental Health Setting,387
+Licensed Premises,295
+Ambulance,291
+Police vehicle with prisoner handling cage,215
+Police vehicle without prisoner handling cage,154
+Sports or Event Stadia,18

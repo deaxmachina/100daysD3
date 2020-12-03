@@ -1,0 +1,10 @@
+.container {
+  margin: auto;
+  width: 1200px;
+  height: 700px;
+}
+
+.wrapper {
+  margin: auto;
+  padding-left: 50px;
+}

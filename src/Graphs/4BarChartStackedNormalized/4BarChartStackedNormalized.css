@@ -1,0 +1,66 @@
+.page-container4 {
+  background-color: #edddd4;
+  color: #484a47;
+}
+
+.wrapper4 {
+  position: relative;
+  background-color: #edddd4;
+  padding: 50px;
+  padding-top: 70px;
+  padding-left: 30px;
+}
+
+.btn-group4 {
+  position: absolute;
+  top: 20px;
+  right: 10%;
+}
+
+.btn-group4 button {
+  margin-left: 10px;
+  width: 70px;
+  height: 40px;
+  outline: none;
+  border: solid 2px maroon;
+  border-radius: 10px;
+  color: maroon;
+  font-weight: bold;
+}
+
+.legend4 {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.legend-colours4 div {
+  width: 20px;
+  height: 20px;
+  background: maroon;
+  margin-bottom: 5px;
+}
+
+.legend-colours4 div {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.legend-colours4 div:nth-child(1) {
+  background: #772e25;
+}
+.legend-colours4 div:nth-child(2) {
+  background: #c44536;
+}
+.legend-colours4 div:nth-child(3) {
+  background: #197278;
+}
+
+.legend-text4 p{
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  width: 150px;
+}

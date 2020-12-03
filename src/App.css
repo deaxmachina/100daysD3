@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3, p {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.page-container {
+  height: 102vh;
+  width: 100%;
+  background-color: #ede0d4;
+  box-sizing: border-box;
+  padding-top: 1%;
+  margin: auto;
+}
+
+.wrapper {
+  padding: 10px;
+  width: 850px;
+  margin: auto;
+  border-radius: 30px;
+  margin-top: 1%;
+}
+
+.disclaimer {
+  font-size: 10px;
+}
+
+/* for the button with graph info */
+.graph-explain-icon {
+  padding: 2px;
+  margin: auto;
+  margin-left: 48%;
+  margin-bottom: 0%;
+  margin-top: 1%;
+  width: 60px;
+  height: 40px;
+  border: 1px dotted white;
+  border-radius: 10%;
+  color: var(--darkest-purple);
+  background-color: var(--creme-white);
+  outline: none;
+}
+
+.info-span {
+  margin-left: 7%;
+}
+
+/* for the scrolltrigger panels */
+
+#content {
+  display: flex
+}
+#panels {
+  flex-grow: 6;
+}
+
+.panel {
+  height: 102vh;
+  box-sizing: border-box;
+  display: flex;
+  overflow: scroll;
+}
+
+.panel.align-top {
+  align-items: flex-start;
+}
+
+/* for the hero section */
+.hero-section {
+  height: 100vh;
+  margin: auto;
+  padding-top: 20%;
+  background: radial-gradient(ellipse at top, #355070, transparent),
+            radial-gradient(ellipse at bottom, #6d597a, #10002b);
+  box-sizing: border-box;
+  color: #f7fff7;
+}
+
+.hero-heading {
+  font-family: 'Tangerine', cursive;
+  font-size: 5.5rem;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+}
+

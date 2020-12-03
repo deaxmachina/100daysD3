@@ -1,0 +1,649 @@
+,borough,ethnic_group,2011,2050
+183,City of London,White British,4265,2564
+275,City of London,White Irish,181,124
+367,City of London,Other White,1386,2634
+459,City of London,White & Black Caribbean,38,34
+551,City of London,White & Black African,37,51
+643,City of London,White & Asian,110,123
+735,City of London,Other Mixed,102,147
+827,City of London,Indian,218,308
+919,City of London,Pakistani,16,73
+1011,City of London,Bangladeshi,232,85
+1103,City of London,Chinese,263,177
+1195,City of London,Other Asian,214,462
+1287,City of London,Black African,99,295
+1379,City of London,Black Caribbean,46,70
+1471,City of London,Other Black,52,68
+1563,City of London,Arab,69,763
+1655,City of London,Other Ethnic Group,85,375
+1747,City of London,BAME,1580,3032
+1931,Barking and Dagenham,White British,92594,63083
+2023,Barking and Dagenham,White Irish,1738,1106
+2115,Barking and Dagenham,Other White,14833,40053
+2207,Barking and Dagenham,White & Black Caribbean,2695,5590
+2299,Barking and Dagenham,White & Black African,2151,3861
+2391,Barking and Dagenham,White & Asian,1262,2638
+2483,Barking and Dagenham,Other Mixed,1854,4534
+2575,Barking and Dagenham,Indian,7503,21796
+2667,Barking and Dagenham,Pakistani,8087,20457
+2759,Barking and Dagenham,Bangladeshi,7769,27232
+2851,Barking and Dagenham,Chinese,1325,2374
+2943,Barking and Dagenham,Other Asian,5183,14540
+3035,Barking and Dagenham,Black African,28955,56317
+3127,Barking and Dagenham,Black Caribbean,5266,9821
+3219,Barking and Dagenham,Other Black,3260,9675
+3311,Barking and Dagenham,Arab,983,1326
+3403,Barking and Dagenham,Other Ethnic Group,1959,6015
+3495,Barking and Dagenham,BAME,78252,186176
+3679,Barnet,White British,162749,166584
+3771,Barnet,White Irish,8720,9356
+3863,Barnet,Other White,57939,103745
+3955,Barnet,White & Black Caribbean,3106,4441
+4047,Barnet,White & Black African,3121,5323
+4139,Barnet,White & Asian,5903,9293
+4231,Barnet,Other Mixed,5094,9615
+4323,Barnet,Indian,28020,40021
+4415,Barnet,Pakistani,5362,8781
+4507,Barnet,Bangladeshi,2221,3241
+4599,Barnet,Chinese,8276,16323
+4691,Barnet,Other Asian,22260,49736
+4783,Barnet,Black African,19444,32153
+4875,Barnet,Black Caribbean,4483,6387
+4967,Barnet,Other Black,3581,6123
+5059,Barnet,Arab,5225,10139
+5151,Barnet,Other Ethnic Group,12147,26927
+5243,Barnet,BAME,128244,228502
+5427,Bexley,White British,180025,191043
+5519,Bexley,White Irish,2608,2770
+5611,Bexley,Other White,8149,22800
+5703,Bexley,White & Black Caribbean,1684,3596
+5795,Bexley,White & Black African,992,2733
+5887,Bexley,White & Asian,1377,2719
+5979,Bexley,Other Mixed,1372,3941
+6071,Bexley,Indian,7083,13429
+6163,Bexley,Pakistani,733,1856
+6255,Bexley,Bangladeshi,781,1710
+6347,Bexley,Chinese,2523,5641
+6439,Bexley,Other Asian,4194,12491
+6531,Bexley,Black African,16015,35854
+6623,Bexley,Black Caribbean,2389,5219
+6715,Bexley,Other Black,1298,4208
+6807,Bexley,Arab,304,353
+6899,Bexley,Other Ethnic Group,1476,2685
+6991,Bexley,BAME,42221,96435
+7175,Brent,White British,56228,51113
+7267,Brent,White Irish,12384,10628
+7359,Brent,Other White,44970,66916
+7451,Brent,White & Black Caribbean,4315,4517
+7543,Brent,White & Black African,2839,4319
+7635,Brent,White & Asian,3674,6481
+7727,Brent,Other Mixed,5069,9078
+7819,Brent,Indian,58348,73905
+7911,Brent,Pakistani,14465,23527
+8003,Brent,Bangladeshi,1761,1939
+8095,Brent,Chinese,3261,4403
+8187,Brent,Other Asian,28755,47482
+8279,Brent,Black African,24533,34887
+8371,Brent,Black Caribbean,23834,18572
+8463,Brent,Other Black,10584,13431
+8555,Brent,Arab,11513,23861
+8647,Brent,Other Ethnic Group,6551,12378
+8739,Brent,BAME,199502,278780
+8923,Bromley,White British,240791,263021
+9015,Bromley,White Irish,4481,5183
+9107,Bromley,Other White,17007,41150
+9199,Bromley,White & Black Caribbean,3933,9308
+9291,Bromley,White & Black African,1347,3231
+9383,Bromley,White & Asian,3044,5859
+9475,Bromley,Other Mixed,2674,6309
+9567,Bromley,Indian,6244,12935
+9659,Bromley,Pakistani,1018,1477
+9751,Bromley,Bangladeshi,1271,3539
+9843,Bromley,Chinese,2782,4308
+9935,Bromley,Other Asian,4826,7187
+10027,Bromley,Black African,9885,33184
+10119,Bromley,Black Caribbean,6646,14436
+10211,Bromley,Other Black,2272,5685
+10303,Bromley,Arab,876,2016
+10395,Bromley,Other Ethnic Group,2012,3589
+10487,Bromley,BAME,48831,113063
+10671,Camden,White British,96896,108123
+10763,Camden,White Irish,7067,7623
+10855,Camden,Other White,42060,80680
+10947,Camden,White & Black Caribbean,2484,2691
+11039,Camden,White & Black African,1793,2534
+11131,Camden,White & Asian,3864,4773
+11223,Camden,Other Mixed,4140,7260
+11315,Camden,Indian,6062,10420
+11407,Camden,Pakistani,1484,2686
+11499,Camden,Bangladeshi,12478,13674
+11591,Camden,Chinese,6453,10495
+11683,Camden,Other Asian,8861,16059
+11775,Camden,Black African,10766,12294
+11867,Camden,Black Caribbean,3492,4588
+11959,Camden,Other Black,3745,4744
+12051,Camden,Arab,3421,6803
+12143,Camden,Other Ethnic Group,5020,8921
+12235,Camden,BAME,74064,107941
+12419,Croydon,White British,172484,131892
+12511,Croydon,White Irish,5392,3739
+12603,Croydon,Other White,23170,45696
+12695,Croydon,White & Black Caribbean,9676,16611
+12787,Croydon,White & Black African,3289,5471
+12879,Croydon,White & Asian,5163,6866
+12971,Croydon,Other Mixed,5848,11613
+13063,Croydon,Indian,24755,45838
+13155,Croydon,Pakistani,10903,24206
+13247,Croydon,Bangladeshi,2578,3486
+13339,Croydon,Chinese,3943,6387
+13431,Croydon,Other Asian,17678,30972
+13523,Croydon,Black African,29074,49777
+13615,Croydon,Black Caribbean,31440,45763
+13707,Croydon,Other Black,12991,43446
+13799,Croydon,Arab,1706,3075
+13891,Croydon,Other Ethnic Group,4724,9942
+13983,Croydon,BAME,163769,303452
+14167,Ealing,White British,103436,86876
+14259,Ealing,White Irish,10474,9366
+14351,Ealing,Other White,52535,82968
+14443,Ealing,White & Black Caribbean,3955,5305
+14535,Ealing,White & Black African,1999,3585
+14627,Ealing,White & Asian,4678,5266
+14719,Ealing,Other Mixed,4509,6153
+14811,Ealing,Indian,48391,59071
+14903,Ealing,Pakistani,14762,15534
+14995,Ealing,Bangladeshi,1794,3037
+15087,Ealing,Chinese,4137,6439
+15179,Ealing,Other Asian,31680,60316
+15271,Ealing,Black African,17353,19538
+15363,Ealing,Black Caribbean,13235,12151
+15455,Ealing,Other Black,6390,12152
+15547,Ealing,Arab,9844,16824
+15639,Ealing,Other Ethnic Group,10495,14632
+15731,Ealing,BAME,173220,240002
+15915,Enfield,White British,127078,105571
+16007,Enfield,White Irish,6936,6533
+16099,Enfield,Other White,57567,106981
+16191,Enfield,White & Black Caribbean,4874,8928
+16283,Enfield,White & Black African,2399,4922
+16375,Enfield,White & Asian,4209,7721
+16467,Enfield,Other Mixed,5791,11271
+16559,Enfield,Indian,11709,15861
+16651,Enfield,Pakistani,2609,3883
+16743,Enfield,Bangladeshi,5627,9600
+16835,Enfield,Chinese,2600,3475
+16927,Enfield,Other Asian,12525,22470
+17019,Enfield,Black African,28357,44706
+17111,Enfield,Black Caribbean,17419,24822
+17203,Enfield,Other Black,8172,19960
+17295,Enfield,Arab,1942,3313
+17387,Enfield,Other Ethnic Group,14197,34454
+17479,Enfield,BAME,122431,215382
+17663,Greenwich,White British,133633,138208
+17755,Greenwich,White Irish,4310,6178
+17847,Greenwich,Other White,21669,50454
+17939,Greenwich,White & Black Caribbean,4018,7131
+18031,Greenwich,White & Black African,2706,6667
+18123,Greenwich,White & Asian,2368,3630
+18215,Greenwich,Other Mixed,3212,6802
+18307,Greenwich,Indian,7873,11030
+18399,Greenwich,Pakistani,2603,3870
+18491,Greenwich,Bangladeshi,1651,2362
+18583,Greenwich,Chinese,5070,9945
+18675,Greenwich,Other Asian,12794,27376
+18767,Greenwich,Black African,35296,58236
+18859,Greenwich,Black Caribbean,8075,11629
+18951,Greenwich,Other Black,5455,8026
+19043,Greenwich,Arab,1073,1890
+19135,Greenwich,Other Ethnic Group,3676,4528
+19227,Greenwich,BAME,95870,163123
+19411,Hackney,White British,89550,128970
+19503,Hackney,White Irish,5251,7512
+19595,Hackney,Other White,40629,69823
+19687,Hackney,White & Black Caribbean,5011,7959
+19779,Hackney,White & Black African,2880,5065
+19871,Hackney,White & Asian,3040,7843
+19963,Hackney,Other Mixed,5024,11402
+20055,Hackney,Indian,7635,7823
+20147,Hackney,Pakistani,1913,2023
+20239,Hackney,Bangladeshi,6207,8023
+20331,Hackney,Chinese,3442,4842
+20423,Hackney,Other Asian,6780,10548
+20515,Hackney,Black African,28090,33496
+20607,Hackney,Black Caribbean,19244,16056
+20699,Hackney,Other Black,9757,13385
+20791,Hackney,Arab,1731,3387
+20883,Hackney,Other Ethnic Group,11394,16843
+20975,Hackney,BAME,112148,148697
+21159,Hammersmith and Fulham,White British,82135,72337
+21251,Hammersmith and Fulham,White Irish,6341,6429
+21343,Hammersmith and Fulham,Other White,35976,53934
+21435,Hammersmith and Fulham,White & Black Caribbean,2772,2135
+21527,Hammersmith and Fulham,White & Black African,1497,1903
+21619,Hammersmith and Fulham,White & Asian,2660,3521
+21711,Hammersmith and Fulham,Other Mixed,3139,4595
+21803,Hammersmith and Fulham,Indian,3447,3706
+21895,Hammersmith and Fulham,Pakistani,1614,1826
+21987,Hammersmith and Fulham,Bangladeshi,1056,866
+22079,Hammersmith and Fulham,Chinese,3123,4521
+22171,Hammersmith and Fulham,Other Asian,7378,11844
+22263,Hammersmith and Fulham,Black African,10577,12838
+22355,Hammersmith and Fulham,Black Caribbean,7128,6656
+22447,Hammersmith and Fulham,Other Black,3851,6981
+22539,Hammersmith and Fulham,Arab,5232,9820
+22631,Hammersmith and Fulham,Other Ethnic Group,4864,7327
+22723,Hammersmith and Fulham,BAME,58339,78538
+22907,Haringey,White British,88994,112469
+22999,Haringey,White Irish,7039,9996
+23091,Haringey,Other White,59244,100764
+23183,Haringey,White & Black Caribbean,4889,5268
+23275,Haringey,White & Black African,2631,3300
+23367,Haringey,White & Asian,3776,4753
+23459,Haringey,Other Mixed,5388,8423
+23551,Haringey,Indian,5975,6644
+23643,Haringey,Pakistani,1931,1966
+23735,Haringey,Bangladeshi,4440,4748
+23827,Haringey,Chinese,3760,5719
+23919,Haringey,Other Asian,8167,12334
+24011,Haringey,Black African,23158,27918
+24103,Haringey,Black Caribbean,18175,15424
+24195,Haringey,Other Black,6745,9699
+24287,Haringey,Arab,2243,3550
+24379,Haringey,Other Ethnic Group,9882,17256
+24471,Haringey,BAME,101161,127002
+24655,Harrow,White British,74375,49551
+24747,Harrow,White Irish,7391,5873
+24839,Harrow,Other White,20014,38788
+24931,Harrow,White & Black Caribbean,2368,3751
+25023,Harrow,White & Black African,1065,1467
+25115,Harrow,White & Asian,3459,5533
+25207,Harrow,Other Mixed,2720,4883
+25299,Harrow,Indian,63577,105764
+25391,Harrow,Pakistani,7865,14841
+25483,Harrow,Bangladeshi,1392,2333
+25575,Harrow,Chinese,2649,1982
+25667,Harrow,Other Asian,27203,39291
+25759,Harrow,Black African,8599,10267
+25851,Harrow,Black Caribbean,6859,8511
+25943,Harrow,Other Black,4413,10053
+26035,Harrow,Arab,3745,6801
+26127,Harrow,Other Ethnic Group,3367,6213
+26219,Harrow,BAME,139282,221691
+26403,Havering,White British,198452,227773
+26495,Havering,White Irish,2999,3138
+26587,Havering,Other White,7383,29632
+26679,Havering,White & Black Caribbean,1985,9012
+26771,Havering,White & Black African,721,3289
+26863,Havering,White & Asian,1165,2816
+26955,Havering,Other Mixed,1106,3586
+27047,Havering,Indian,5041,16423
+27139,Havering,Pakistani,1500,5455
+27231,Havering,Bangladeshi,981,5359
+27323,Havering,Chinese,1466,2132
+27415,Havering,Other Asian,2612,7023
+27507,Havering,Black African,7616,20338
+27599,Havering,Black Caribbean,2897,6993
+27691,Havering,Other Black,1024,3505
+27783,Havering,Arab,313,780
+27875,Havering,Other Ethnic Group,1019,1799
+27967,Havering,BAME,29447,88510
+28151,Hillingdon,White British,143927,110060
+28243,Hillingdon,White Irish,5988,5610
+28335,Hillingdon,Other White,17332,39188
+28427,Hillingdon,White & Black Caribbean,2743,5199
+28519,Hillingdon,White & Black African,1428,4205
+28611,Hillingdon,White & Asian,3644,6746
+28703,Hillingdon,Other Mixed,2782,8186
+28795,Hillingdon,Indian,37112,82937
+28887,Hillingdon,Pakistani,9284,19366
+28979,Hillingdon,Bangladeshi,2663,6451
+29071,Hillingdon,Chinese,2912,7195
+29163,Hillingdon,Other Asian,17894,35327
+29255,Hillingdon,Black African,11378,23783
+29347,Hillingdon,Black Caribbean,4646,8076
+29439,Hillingdon,Other Black,4232,9753
+29531,Hillingdon,Arab,2958,7894
+29623,Hillingdon,Other Ethnic Group,5213,13444
+29715,Hillingdon,BAME,108887,238563
+29899,Hounslow,White British,96767,83459
+29991,Hounslow,White Irish,4797,4721
+30083,Hounslow,Other White,29635,56862
+30175,Hounslow,White & Black Caribbean,2285,2984
+30267,Hounslow,White & Black African,1744,2381
+30359,Hounslow,White & Asian,3418,4930
+30451,Hounslow,Other Mixed,2978,4703
+30543,Hounslow,Indian,48422,81471
+30635,Hounslow,Pakistani,13751,21223
+30727,Hounslow,Bangladeshi,2200,7134
+30819,Hounslow,Chinese,2418,2231
+30911,Hounslow,Other Asian,20930,37038
+31003,Hounslow,Black African,10849,15531
+31095,Hounslow,Black Caribbean,3397,3935
+31187,Hounslow,Other Black,2660,2896
+31279,Hounslow,Arab,3662,5017
+31371,Hounslow,Other Ethnic Group,5421,6724
+31463,Hounslow,BAME,124135,198199
+31647,Islington,White British,98619,122111
+31739,Islington,White Irish,8166,9516
+31831,Islington,Other White,34172,59661
+31923,Islington,White & Black Caribbean,4241,6361
+32015,Islington,White & Black African,1920,3052
+32107,Islington,White & Asian,2979,4518
+32199,Islington,Other Mixed,4238,7655
+32291,Islington,Indian,3532,6238
+32383,Islington,Pakistani,949,1506
+32475,Islington,Bangladeshi,4667,4917
+32567,Islington,Chinese,4447,6451
+32659,Islington,Other Asian,5437,8648
+32751,Islington,Black African,12631,17044
+32843,Islington,Black Caribbean,7952,7319
+32935,Islington,Other Black,5739,14155
+33027,Islington,Arab,1895,4248
+33119,Islington,Other Ethnic Group,5055,6131
+33211,Islington,BAME,65682,98244
+33395,Kensington and Chelsea,White British,62338,53297
+33487,Kensington and Chelsea,White Irish,3719,2514
+33579,Kensington and Chelsea,Other White,46004,68593
+33671,Kensington and Chelsea,White & Black Caribbean,1696,1633
+33763,Kensington and Chelsea,White & Black African,1152,1137
+33855,Kensington and Chelsea,White & Asian,3037,3411
+33947,Kensington and Chelsea,Other Mixed,3129,3223
+34039,Kensington and Chelsea,Indian,2572,2781
+34131,Kensington and Chelsea,Pakistani,909,630
+34223,Kensington and Chelsea,Bangladeshi,834,511
+34315,Kensington and Chelsea,Chinese,3935,5838
+34407,Kensington and Chelsea,Other Asian,7552,11142
+34499,Kensington and Chelsea,Black African,5540,5793
+34591,Kensington and Chelsea,Black Caribbean,3258,2870
+34683,Kensington and Chelsea,Other Black,1540,1480
+34775,Kensington and Chelsea,Arab,6446,9375
+34867,Kensington and Chelsea,Other Ethnic Group,4989,5324
+34959,Kensington and Chelsea,BAME,46590,55148
+35143,Kingston upon Thames,White British,101299,96740
+35235,Kingston upon Thames,White Irish,2729,2720
+35327,Kingston upon Thames,Other White,15523,32980
+35419,Kingston upon Thames,White & Black Caribbean,1239,2206
+35511,Kingston upon Thames,White & Black African,702,1127
+35603,Kingston upon Thames,White & Asian,2507,4628
+35695,Kingston upon Thames,Other Mixed,1834,4301
+35787,Kingston upon Thames,Indian,6338,12088
+35879,Kingston upon Thames,Pakistani,3015,6314
+35971,Kingston upon Thames,Bangladeshi,893,4435
+36063,Kingston upon Thames,Chinese,2889,6427
+36155,Kingston upon Thames,Other Asian,13071,31499
+36247,Kingston upon Thames,Black African,2615,5988
+36339,Kingston upon Thames,Black Caribbean,1027,2135
+36431,Kingston upon Thames,Other Black,378,787
+36523,Kingston upon Thames,Arab,2444,7398
+36615,Kingston upon Thames,Other Ethnic Group,1968,3998
+36707,Kingston upon Thames,BAME,40918,93332
+36891,Lambeth,White British,119016,141090
+36983,Lambeth,White Irish,7512,12329
+37075,Lambeth,Other White,47646,84313
+37167,Lambeth,White & Black Caribbean,8330,10413
+37259,Lambeth,White & Black African,4322,6240
+37351,Lambeth,White & Asian,3597,6272
+37443,Lambeth,Other Mixed,7028,12889
+37535,Lambeth,Indian,5011,5237
+37627,Lambeth,Pakistani,3087,3513
+37719,Lambeth,Bangladeshi,2231,2211
+37811,Lambeth,Chinese,4575,5182
+37903,Lambeth,Other Asian,6116,8188
+37995,Lambeth,Black African,35345,41697
+38087,Lambeth,Black Caribbean,29004,25046
+38179,Lambeth,Other Black,14528,22540
+38271,Lambeth,Arab,1740,2464
+38363,Lambeth,Other Ethnic Group,5719,8769
+38455,Lambeth,BAME,130633,160661
+38639,Lewisham,White British,115101,131143
+38731,Lewisham,White Irish,5235,6358
+38823,Lewisham,Other White,28194,55653
+38915,Lewisham,White & Black Caribbean,8593,13671
+39007,Lewisham,White & Black African,3594,7284
+39099,Lewisham,White & Asian,3075,5366
+39191,Lewisham,Other Mixed,5372,9416
+39283,Lewisham,Indian,4630,7334
+39375,Lewisham,Pakistani,1605,3127
+39467,Lewisham,Bangladeshi,1395,2164
+39559,Lewisham,Chinese,6193,10288
+39651,Lewisham,Other Asian,11856,22161
+39743,Lewisham,Black African,32238,46340
+39835,Lewisham,Black Caribbean,31010,33770
+39927,Lewisham,Other Black,12150,22176
+40019,Lewisham,Arab,1466,4271
+40111,Lewisham,Other Ethnic Group,5816,12831
+40203,Lewisham,BAME,128995,200199
+40387,Merton,White British,97365,92765
+40479,Merton,White Irish,4438,4883
+40571,Merton,Other White,28774,60128
+40663,Merton,White & Black Caribbean,2604,4014
+40755,Merton,White & Black African,1297,1738
+40847,Merton,White & Asian,2869,3748
+40939,Merton,Other Mixed,2678,4913
+41031,Merton,Indian,8167,11670
+41123,Merton,Pakistani,7394,14138
+41215,Merton,Bangladeshi,2234,3041
+41307,Merton,Chinese,2637,3492
+41399,Merton,Other Asian,15987,26582
+41491,Merton,Black African,10521,11069
+41583,Merton,Black Caribbean,8177,8615
+41675,Merton,Other Black,2261,1896
+41767,Merton,Arab,1424,1347
+41859,Merton,Other Ethnic Group,2398,3816
+41951,Merton,BAME,70649,100079
+42135,Newham,White British,52072,37386
+42227,Newham,White Irish,2191,2915
+42319,Newham,Other White,36020,55828
+42411,Newham,White & Black Caribbean,4008,4328
+42503,Newham,White & Black African,3379,4574
+42595,Newham,White & Asian,2739,5416
+42687,Newham,Other Mixed,4063,8350
+42779,Newham,Indian,43033,79351
+42871,Newham,Pakistani,30714,50061
+42963,Newham,Bangladeshi,37748,64859
+43055,Newham,Chinese,3978,6575
+43147,Newham,Other Asian,20178,29980
+43239,Newham,Black African,38292,43559
+43331,Newham,Black Caribbean,15192,15317
+43423,Newham,Other Black,7503,13972
+43515,Newham,Arab,3573,6379
+43607,Newham,Other Ethnic Group,7228,16029
+43699,Newham,BAME,221628,348748
+43883,Redbridge,White British,97010,66476
+43975,Redbridge,White Irish,3929,3769
+44067,Redbridge,Other White,18682,37671
+44159,Redbridge,White & Black Caribbean,3238,3024
+44251,Redbridge,White & Black African,1711,2867
+44343,Redbridge,White & Asian,3290,6606
+44435,Redbridge,Other Mixed,3347,6745
+44527,Redbridge,Indian,46105,88625
+44619,Redbridge,Pakistani,31375,70522
+44711,Redbridge,Bangladeshi,16170,41057
+44803,Redbridge,Chinese,3029,3913
+44895,Redbridge,Other Asian,20977,34939
+44987,Redbridge,Black African,12478,14909
+45079,Redbridge,Black Caribbean,9136,8542
+45171,Redbridge,Other Black,3454,6371
+45263,Redbridge,Arab,1568,2224
+45355,Redbridge,Other Ethnic Group,6023,10203
+45447,Redbridge,BAME,161900,300546
+45631,Richmond upon Thames,White British,134001,145459
+45723,Richmond upon Thames,White Irish,4781,7731
+45815,Richmond upon Thames,Other White,22416,44291
+45907,Richmond upon Thames,White & Black Caribbean,1254,2037
+45999,Richmond upon Thames,White & Black African,734,1197
+46091,Richmond upon Thames,White & Asian,2866,3736
+46183,Richmond upon Thames,Other Mixed,1946,2818
+46275,Richmond upon Thames,Indian,5216,8358
+46367,Richmond upon Thames,Pakistani,1166,2959
+46459,Richmond upon Thames,Bangladeshi,868,1330
+46551,Richmond upon Thames,Chinese,1755,2148
+46643,Richmond upon Thames,Other Asian,4628,9906
+46735,Richmond upon Thames,Black African,1646,2504
+46827,Richmond upon Thames,Black Caribbean,842,1607
+46919,Richmond upon Thames,Other Black,335,379
+47011,Richmond upon Thames,Arab,1175,2134
+47103,Richmond upon Thames,Other Ethnic Group,1896,2787
+47195,Richmond upon Thames,BAME,26329,43901
+47379,Southwark,White British,115003,141312
+47471,Southwark,White Irish,6243,8629
+47563,Southwark,Other White,35737,65561
+47655,Southwark,White & Black Caribbean,5695,7891
+47747,Southwark,White & Black African,3717,6087
+47839,Southwark,White & Asian,3022,4979
+47931,Southwark,Other Mixed,5440,12491
+48023,Southwark,Indian,5830,9977
+48115,Southwark,Pakistani,1626,2051
+48207,Southwark,Bangladeshi,3926,2471
+48299,Southwark,Chinese,8080,13311
+48391,Southwark,Other Asian,7785,14027
+48483,Southwark,Black African,47561,52450
+48575,Southwark,Black Caribbean,18024,15742
+48667,Southwark,Other Black,12187,19905
+48759,Southwark,Arab,2449,4964
+48851,Southwark,Other Ethnic Group,7036,13045
+48943,Southwark,BAME,132378,179390
+49127,Sutton,White British,135799,137124
+49219,Sutton,White Irish,3241,3854
+49311,Sutton,Other White,11461,33579
+49403,Sutton,White & Black Caribbean,2321,6901
+49495,Sutton,White & Black African,848,2146
+49587,Sutton,White & Asian,2309,4483
+49679,Sutton,Other Mixed,1732,4209
+49771,Sutton,Indian,6504,14678
+49863,Sutton,Pakistani,2614,7467
+49955,Sutton,Bangladeshi,1191,2918
+50047,Sutton,Chinese,2254,3515
+50139,Sutton,Other Asian,9631,22057
+50231,Sutton,Black African,5515,8288
+50323,Sutton,Black Caribbean,2760,5077
+50415,Sutton,Other Black,912,1635
+50507,Sutton,Arab,982,1747
+50599,Sutton,Other Ethnic Group,1442,2694
+50691,Sutton,BAME,41014,87814
+50875,Tower Hamlets,White British,80002,101578
+50967,Tower Hamlets,White Irish,3904,6832
+51059,Tower Hamlets,Other White,32142,72849
+51151,Tower Hamlets,White & Black Caribbean,2864,4538
+51243,Tower Hamlets,White & Black African,1527,4031
+51335,Tower Hamlets,White & Asian,3001,5806
+51427,Tower Hamlets,Other Mixed,3097,6595
+51519,Tower Hamlets,Indian,6875,16201
+51611,Tower Hamlets,Pakistani,2462,4639
+51703,Tower Hamlets,Bangladeshi,82139,117724
+51795,Tower Hamlets,Chinese,8179,15750
+51887,Tower Hamlets,Other Asian,5839,10101
+51979,Tower Hamlets,Black African,9590,16800
+52071,Tower Hamlets,Black Caribbean,5384,6878
+52163,Tower Hamlets,Other Black,3836,5005
+52255,Tower Hamlets,Arab,2597,5940
+52347,Tower Hamlets,Other Ethnic Group,3246,6675
+52439,Tower Hamlets,BAME,140637,226683
+52623,Waltham Forest,White British,93739,82301
+52715,Waltham Forest,White Irish,3989,4202
+52807,Waltham Forest,Other White,38168,78579
+52899,Waltham Forest,White & Black Caribbean,4616,6843
+52991,Waltham Forest,White & Black African,2431,3009
+53083,Waltham Forest,White & Asian,2636,4440
+53175,Waltham Forest,Other Mixed,4240,9425
+53267,Waltham Forest,Indian,9206,14748
+53359,Waltham Forest,Pakistani,26577,47255
+53451,Waltham Forest,Bangladeshi,4672,8950
+53543,Waltham Forest,Chinese,2598,3809
+53635,Waltham Forest,Other Asian,11791,13774
+53727,Waltham Forest,Black African,18974,29237
+53819,Waltham Forest,Black Caribbean,18970,19960
+53911,Waltham Forest,Other Black,7196,9683
+54003,Waltham Forest,Arab,3817,10640
+54095,Waltham Forest,Other Ethnic Group,6776,11630
+54187,Waltham Forest,BAME,124501,193403
+54371,Wandsworth,White British,164460,167390
+54463,Wandsworth,White Irish,7696,11849
+54555,Wandsworth,Other White,48074,82531
+54647,Wandsworth,White & Black Caribbean,4656,7194
+54739,Wandsworth,White & Black African,2043,3741
+54831,Wandsworth,White & Asian,3908,5804
+54923,Wandsworth,Other Mixed,4703,8981
+55015,Wandsworth,Indian,8670,8901
+55107,Wandsworth,Pakistani,9750,12398
+55199,Wandsworth,Bangladeshi,1495,1442
+55291,Wandsworth,Chinese,3723,4092
+55383,Wandsworth,Other Asian,9803,11291
+55475,Wandsworth,Black African,14869,21505
+55567,Wandsworth,Black Caribbean,12328,12350
+55659,Wandsworth,Other Black,5659,8512
+55751,Wandsworth,Arab,2356,5242
+55843,Wandsworth,Other Ethnic Group,4107,7094
+55935,Wandsworth,BAME,88070,118547
+56119,Westminster,White British,77474,76610
+56211,Westminster,White Irish,4977,3929
+56303,Westminster,Other White,53066,92233
+56395,Westminster,White & Black Caribbean,1868,1329
+56487,Westminster,White & Black African,1931,2272
+56579,Westminster,White & Asian,3585,5014
+56671,Westminster,Other Mixed,4013,6281
+56763,Westminster,Indian,7214,10245
+56855,Westminster,Pakistani,2328,2868
+56947,Westminster,Bangladeshi,6293,5173
+57039,Westminster,Chinese,5893,5548
+57131,Westminster,Other Asian,10109,15614
+57223,Westminster,Black African,9138,11903
+57315,Westminster,Black Caribbean,4458,2847
+57407,Westminster,Other Black,2884,3061
+57499,Westminster,Arab,15728,34814
+57591,Westminster,Other Ethnic Group,8623,16583
+57683,Westminster,BAME,84065,123552
+57867,Inner London,White British,1245927,1396380
+57959,Inner London,White Irish,75522,96555
+58051,Inner London,Other White,540349,945058
+58143,Inner London,White & Black Caribbean,57145,75445
+58235,Inner London,White & Black African,32423,51270
+58327,Inner London,White & Asian,42393,67599
+58419,Inner London,Other Mixed,58877,107707
+58511,Inner London,Indian,110703,175168
+58603,Inner London,Pakistani,60388,89365
+58695,Inner London,Bangladeshi,165142,228869
+58787,Inner London,Chinese,66045,98789
+58879,Inner London,Other Asian,116076,182396
+58971,Inner London,Black African,277894,343931
+59063,Inner London,Black Caribbean,174695,164932
+59155,Inner London,Other Black,90178,145684
+59247,Inner London,Arab,50947,102020
+59339,Inner London,Other Ethnic Group,83065,143204
+59431,Inner London,BAME,1385970,1976380
+59615,Outer London,White British,2441754,2289100
+59707,Outer London,White Irish,101325,101360
+59799,Outer London,Other White,507227,1012459
+59891,Outer London,White & Black Caribbean,62908,111398
+59983,Outer London,White & Black African,33522,63537
+60075,Outer London,White & Asian,59843,98140
+60167,Outer London,Other Mixed,60786,123086
+60259,Outer London,Indian,435616,730648
+60351,Outer London,Pakistani,165084,313132
+60443,Outer London,Bangladeshi,58715,139154
+60535,Outer London,Chinese,58524,96136
+60627,Outer London,Other Asian,284619,530008
+60719,Outer London,Black African,299104,506566
+60811,Outer London,Black Caribbean,171499,222251
+60903,Outer London,Other Black,80869,169665
+60995,Outer London,Arab,55554,108777
+61087,Outer London,Other Ethnic Group,92759,178459
+61179,Outer London,BAME,1919402,3390955
+61363,Greater London,White British,3687680,3685479
+61455,Greater London,White Irish,176846,197915
+61547,Greater London,Other White,1047576,1957517
+61639,Greater London,White & Black Caribbean,120053,186844
+61731,Greater London,White & Black African,65946,114807
+61823,Greater London,White & Asian,102236,165739
+61915,Greater London,Other Mixed,119664,230793
+62007,Greater London,Indian,546319,905816
+62099,Greater London,Pakistani,225472,402497
+62191,Greater London,Bangladeshi,223857,368022
+62283,Greater London,Chinese,124569,194925
+62375,Greater London,Other Asian,400695,712404
+62467,Greater London,Black African,576998,850497
+62559,Greater London,Black Caribbean,346194,387183
+62651,Greater London,Other Black,171047,315348
+62743,Greater London,Arab,106501,210798
+62835,Greater London,Other Ethnic Group,175824,321663
+62927,Greater London,BAME,3305373,5367335

@@ -1,0 +1,31 @@
+.page-container3 {
+  background-color: #242423;
+  color: white;
+}
+.wrapper3 {
+  position: relative;
+  background-color: #242423;
+}
+
+.button-group3 {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+.button-group3 button {
+  height: 50px;
+  width: 90px;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: darkslateblue;
+  color: white;
+  outline: none;
+}
+
+.button-group3 button:active, button:hover{
+  border: 2px white solid;
+  outline: none;
+}
+

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+.page-container5  {
+  background-color: #242423;
+  color: white;
+}
+
+.wrapper5 {
+  position: relative;
+  background-color: #242423;
+}
+
+.dropdown-menu5 {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
+
+.selected-borough5  {
+  font-family: 'Nunito', sans-serif;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  opacity: 0.8;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgba(7, 6, 6, 0.5);
+  width: 150px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 10px;
+}
+
+.select5 {
+  font-family: 'Nunito', sans-serif;
+  background: #242423; 
+  opacity: 0.8;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 110px;
+  height: 50px;
+  border: 10px black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 10px;
+  padding-left: 10px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+option {
+  text-align: center;
+  margin: auto;
+}

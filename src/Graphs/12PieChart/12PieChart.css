@@ -1,0 +1,19 @@
+.page-container12 {
+  /*background-color: #745cff;*/
+  /*background-color: #6d597a;*/
+  background-color: #6d597a;
+  color: white;
+}
+
+.wrapper12 {
+  position: relative;
+  background-color: #6d597a;
+  padding: 30px;
+  border-radius: 10%;
+  margin-top: 2%;
+}
+
+.icon-attribution{
+  font-size: 11px;
+  opacity: 0.4;
+}

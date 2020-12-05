@@ -19,6 +19,7 @@ import { MyScatterPlot } from "../Graphs/17ScatterPlot/17MyScatterPlot";
 //import { HeatMap } from "./Graphs/18HeatMap/18HeatMap";
 import { MyRadialAreaChart } from "../Graphs/19RadialAreaChart/19MyRadialAreaChart";
 import { PieCharts } from "../Graphs/21PieCharts/21MyPieCharts";
+import { WorldHeritageSites } from "../Graphs/25WorldHeritageSites/App";
 
 import Hero from "./Hero";
 
@@ -49,6 +50,9 @@ const DecreasingPanels = () => {
 
       <div id="content">
         <div id="panels">
+          <section className="panel">
+            <WorldHeritageSites />
+          </section>
           <section className="panel">
             <PieCharts />
           </section>

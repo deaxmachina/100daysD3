@@ -3,6 +3,8 @@ import "./App.css";
 import DecreasingPanels from "./Components/DecreasingPanels";
 //import IncreasingPanels from "./Components/IncreasingPanels";
 //import OrderedGraphs from "./Components/OrderedGraphs";
+//import { Map } from "./Graphs/23MissingMigrantsProject/App";
+import { WorldHeritageSites } from "./Graphs/25WorldHeritageSites/App";
 
 const App = () => {
   return (

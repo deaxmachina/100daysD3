@@ -14,12 +14,15 @@
     "chroma-js": "^2.1.0",
     "d3": "^6.2.0",
     "d3-color-legend": "^1.2.5",
+    "d3-geo-projection": "^3.0.0",
     "d3-svg-legend": "^2.25.6",
     "gsap": "^3.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
-    "topojson": "^3.0.2"
+    "topojson": "^3.0.2",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

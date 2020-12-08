@@ -32,7 +32,7 @@ const MyBrushableHistogram = () => {
   /// constatns ///
   // dimensions 
   const width = 850;
-  const height = 600;
+  const height = 550;
   const margin = {top: 20, right: 20, bottom: 30, left: 40}
   // colours 
   const barsColour = '#fb8500'

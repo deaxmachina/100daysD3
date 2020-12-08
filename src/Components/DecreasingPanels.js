@@ -56,10 +56,11 @@ const DecreasingPanels = () => {
           </section>
           <section className="panel">
             <WorldHeritageSites />
-          </section>
-          <section className="panel">
+          </section>    
+          <section className="panel anime-genres-panel">
             <PieCharts />
           </section>
+          <section className="panel"></section>
           <section className="panel">
             <MyRadialAreaChart />
           </section>

@@ -90,7 +90,7 @@ const MyStreamGraph = () => {
   ]
 
   /// Dimensions ///
-  const height = 600;
+  const height = 550;
   const width = 850;
   const margin = {top: 20, right: 20, bottom: 30, left: 50}
 

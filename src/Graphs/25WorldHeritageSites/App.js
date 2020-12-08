@@ -41,7 +41,7 @@ const WorldHeritageSites = () => {
   /// constatns ///
   // dimensions 
   const width = 1000;
-  const height = 600;
+  const height = 580;
   const dateHistogramSize = 0.2;
 
   /// Data load ///

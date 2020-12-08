@@ -94,11 +94,11 @@ const MyRadialGradient = () => {
   const [revealGraphExplanation, setRevealGraphExplanation] = useState(false);
 
   /// dimensions ///
-  const width = 600;
-  const height = 600;
+  const width = 550;
+  const height = 500;
   const innerRadius = 0;
-  const outerRadius = 280;
-  const margin = {top: 10, bottom: 10, right: 10, left: 10}
+  const outerRadius = 250;
+  const margin = {top: 10, bottom: 10, right: 10, left: 30}
   const coloursDeaths = ["#355070", "#070A0E"];
   const coloursInjuries = ["#6d597a", "#151118"];
   const coloursMissing = ["#b56576", "1#C0D10"];

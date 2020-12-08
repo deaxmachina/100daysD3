@@ -18,8 +18,8 @@ h1, h2, h3, p {
 }
 
 h1 {
-  font-size: 2.3rem;
-  margin-bottom: 20px;
+  font-size: 1.9rem;
+  margin-bottom: 18px;
 }
 
 h2 {
@@ -36,7 +36,7 @@ a {
 }
 
 .page-container {
-  height: 102vh;
+  height: 100vh;
   width: 100%;
   background-color: #ede0d4;
   box-sizing: border-box;
@@ -86,10 +86,14 @@ a {
 }
 
 .panel {
-  height: 102vh;
+  height: 100vh;
   box-sizing: border-box;
   display: flex;
   overflow: scroll;
+}
+
+.anime-genres-panel {
+  height: 200vh !important;
 }
 
 .panel.align-top {

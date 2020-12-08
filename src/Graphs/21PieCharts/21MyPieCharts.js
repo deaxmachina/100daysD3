@@ -80,7 +80,7 @@ const PieChart = (props) => {
   const height = 420;
   const innerRadius = 4;
   const outerRadius = 210;
-  const margin = {top: 10, bottom: 10, right: 10, left: 10}
+  const margin = {top: 0, bottom: 0, right: 0, left: 0}
 
 
   /// Data load ///
@@ -200,8 +200,8 @@ const PieChart = (props) => {
     <div className="wrapper wrapper21">
         <svg 
           ref={svgRef} 
-          width={width + margin.left + margin.right} 
-          height={height + margin.top + margin.bottom} 
+          width={width} 
+          height={height} 
         >
             <g ref={gRef}></g>  
             <g ref={xAxisRef}></g>

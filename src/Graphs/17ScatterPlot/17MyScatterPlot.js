@@ -44,9 +44,9 @@ const MyScatterPlot = () => {
 
   /// constants ///
   // dimensions 
-  const height = 500;
+  const height = 550;
   const width = 840;
-  const margin = {top: 20, right: 10, bottom: 50, left: 40}
+  const margin = {top: 50, right: 10, bottom: 50, left: 40}
   // colours 
   const textColour = "#f4f3ee"
 

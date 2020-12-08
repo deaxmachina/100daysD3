@@ -20,6 +20,7 @@ import { MyScatterPlot } from "../Graphs/17ScatterPlot/17MyScatterPlot";
 import { MyRadialAreaChart } from "../Graphs/19RadialAreaChart/19MyRadialAreaChart";
 import { PieCharts } from "../Graphs/21PieCharts/21MyPieCharts";
 import { WorldHeritageSites } from "../Graphs/25WorldHeritageSites/App";
+import { MyBrushableHistogram } from "../Graphs/26Histogram/26MyBrushableHistogram";
 
 import Hero from "./Hero";
 
@@ -50,6 +51,9 @@ const DecreasingPanels = () => {
 
       <div id="content">
         <div id="panels">
+          <section className="panel">
+            <MyBrushableHistogram />
+          </section>
           <section className="panel">
             <WorldHeritageSites />
           </section>

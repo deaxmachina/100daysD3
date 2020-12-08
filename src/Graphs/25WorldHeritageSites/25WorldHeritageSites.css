@@ -1,10 +1,17 @@
-.page-container26 {
+.page-container25 {
   background-color: #6d6875;
   color: #ede0d4;
 }
 
-.wrapper26 {
-  width: 950px !important;
+.wrapper25, .sphere {
+  width: 1000px !important;
   position: relative;
   background-color: #6d6875;
+  border: 8px solid #ede0d4;
+  padding: 0;
+
+  background: 
+  center / auto repeat url("white-waves.png"), 
+  radial-gradient( #6d6875, #64606C);
+  background-blend-mode: multiply;
 }

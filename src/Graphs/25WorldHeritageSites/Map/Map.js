@@ -2,46 +2,54 @@ import React, { useEffect, useRef } from "react";
 import * as d3 from "d3";
 import { feature, mesh } from 'topojson-client';
 
-const projection = d3.geoNaturalEarth1()
-  .center([0, 0])
-  .scale(200)
-  //.translate([1000 / 2, 600 / 2])
-
-
-const path = d3.geoPath(projection);
-const graticule = d3.geoGraticule();
 
 // colours 
 const colourLand = "#ede0d4"
 const colourBoundaries = "white"
-const colourBubbles = "#b5838d";
+const colourBubbles = "#804D57" //"#b5838d";
 
 
-const BubbleMap = ({worldAtlas: { land, interiors }, data}) => {
+
+const BubbleMap = ({worldAtlas: { land, interiors }, data, width, height, brushExtent}) => {
   /// refs ///
   const gRef = useRef();
+  const pathRef1 = useRef();
+  const pathRef2 = useRef();
+
+  const projection = d3.geoMercator()
+  //.fitSize([width, height], land)
+  .scale(160)
+  .center([0, 13])
+
+
+  const path = d3.geoPath(projection);
+  const graticule = d3.geoGraticule();
+
 
   /// D3 code ///
   useEffect(() => {
+
+    if (!land || !interiors || !data) {
+      console.log("np land")
+    } else {
+      // zoom and pan
+      /*
+      const zoom = d3.zoom()
+        .on('zoom', (event) => {
+          g.attr('transform', event.transform)
+        })
+        .scaleExtent([1, 10]);
+      */
+
       // select the existing group 
       const g = d3.select(gRef.current)
-
-      // append a path for the sphere 
-      const sphere = g.append("path")
-        .attr("d", path({ type: 'Sphere' }))
-        .attr("class", "sphere")
-        //.attr("fill", "#fbfbfb")
-
-      // append a path for the graticules 
-      const graticules = g.append("path")
-        .attr("d", path(graticule()))
-        .attr("class", "graticules")
-        .attr("fill", "none")
-        //.attr("stroke", "#d9dfe0")
+        // This is for when you zoom on the background, it will zoom
+        //.call(zoom)
+        // This is going to be the country group
 
       // draw the countries 
       const countriesPaths = g.selectAll("path")
-        .data(land.features)
+        .data(land.features, d => d)
         .join("path")
         .attr("class", "land")
         .attr("d", d => path(d))
@@ -53,7 +61,7 @@ const BubbleMap = ({worldAtlas: { land, interiors }, data}) => {
         .attr("d", path(interiors))
         .attr("fill", "none")
         .attr("stroke", "#6d6875")
-        .attr("stroke-opacity", 0.2)
+        .attr("stroke-opacity", 0.1)
 
       // Add buddles for each site 
       const bubbles = g.selectAll("circle")
@@ -62,11 +70,13 @@ const BubbleMap = ({worldAtlas: { land, interiors }, data}) => {
         .attr("class", "bubbles")
         .attr("cx", d => projection([d.longitude, d.latitude])[0])
         .attr("cy", d => projection([d.longitude, d.latitude])[1])
-        .attr("r", 1.5)
+        .attr("r", 3)
         .attr("fill", colourBubbles)
-        .attr("fill-opacity", 0.6)
+        .attr("fill-opacity", 0.7)
         .attr("stroke", colourBubbles)
         .attr("stroke-opacity", 1)
+    }
+
 
   }, [land, interiors, data]);
 
@@ -75,6 +85,8 @@ const BubbleMap = ({worldAtlas: { land, interiors }, data}) => {
   return (
     <>
       <g className="marks" ref={gRef}>
+        <path ref={pathRef1}></path>
+        <path ref={pathRef2}></path>
       </g>
     </>
   )

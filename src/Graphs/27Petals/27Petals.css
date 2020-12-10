@@ -1,0 +1,21 @@
+.page-container27 {
+  color: white;
+  background: 
+  center / auto repeat url(""), 
+  #161a1d;
+  background-blend-mode: screen;
+}
+
+.wrapper27 {
+  position: relative;
+  background-color: #161a1d;
+  border: 10px solid black;
+  border-radius: 0;
+  padding: 10px;
+  margin-top: 20px;
+
+  background: 
+  center / auto repeat url("white-waves.png"), 
+  #161a1d;
+  background-blend-mode: color-burn;
+}

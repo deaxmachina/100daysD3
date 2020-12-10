@@ -3,12 +3,12 @@ import "./App.css";
 import DecreasingPanels from "./Components/DecreasingPanels";
 //import IncreasingPanels from "./Components/IncreasingPanels";
 //import OrderedGraphs from "./Components/OrderedGraphs";
-//import { Map } from "./Graphs/23MissingMigrantsProject/App";
+//import { Petals } from "./Graphs/27Petals/27Petals";
 
 
 const App = () => {
   return (
-    <DecreasingPanels/>
+    <DecreasingPanels />
   )
 }
 

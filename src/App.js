@@ -1,14 +1,25 @@
-import React , { useEffect } from "react";
+import React , { useEffect, useState } from "react";
 import "./App.css";
 import DecreasingPanels from "./Components/DecreasingPanels";
-//import IncreasingPanels from "./Components/IncreasingPanels";
-//import OrderedGraphs from "./Components/OrderedGraphs";
-//import { Petals } from "./Graphs/27Petals/27Petals";
+import HeroMobile from "./Components/HeroMobile";
 
 
 const App = () => {
+
+  const [isDesktop, setIsDesktop] = useState(null)
+  const updatePredicate = function () {
+    setIsDesktop(window.innerWidth > 1100)
+  }
+  useEffect(() => {
+    updatePredicate();
+    window.addEventListener("resize", updatePredicate);
+  }, [])
+
+
   return (
-    <DecreasingPanels />
+    <>
+    {isDesktop ? <DecreasingPanels /> : <HeroMobile />}
+    </>  
   )
 }
 

@@ -1,0 +1,24 @@
+.page-container30 {
+  background-color: #321939;
+  color: #ede0d4;
+}
+
+.wrapper30 {
+  position: relative;
+  background-color: #321939;
+  border-radius: 600px;
+  border: red;
+}
+
+.button30 {
+  position: absolute;
+  right: 150px;
+  padding: 12px;
+  margin: 0px;
+  color: #ede0d4;
+  border-radius: 50px;
+  outline: none;
+  background-color: #fb5607;
+  border: 2px solid;
+  text-transform: uppercase;
+}

@@ -14,7 +14,7 @@ const HeroMobile = () => {
             Follow my journey of learning D3 with React. 
             <FontAwesomeIcon icon={faStar} size="md"/>
           </p>
-          <p>Sorry! Currently not optimised for mobile. If you mave a chance please view on a device with a larger screen.</p>
+          <p>Sorry! Currently not optimised for mobile. If you have a chance please view on a device with a larger screen.</p>
           <div class="arrow"></div>
       </div>
     </>

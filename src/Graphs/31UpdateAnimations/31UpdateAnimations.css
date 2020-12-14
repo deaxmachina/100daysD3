@@ -1,0 +1,24 @@
+.page-container31 {
+  background-color: #252422;
+  color: #ede0d4;
+}
+
+.wrapper31 {
+  position: relative;
+  background-color: #252422;
+  border: 10px solid #403d39;
+  padding: 20px;
+}
+
+.button31 {
+  position: absolute;
+  right: 45%;
+  background-color: #eb5e28;
+  color: #ede0d4;
+  outline: none;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 20px;
+}

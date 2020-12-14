@@ -23,6 +23,8 @@ import { WorldHeritageSites } from "../Graphs/25WorldHeritageSites/App";
 import { MyBrushableHistogram } from "../Graphs/26Histogram/26MyBrushableHistogram";
 import { Petals } from "../Graphs/27Petals/27Petals";
 import {MyForceLayout} from "../Graphs/30ForceLayout/30MyForceLayout";
+import { UpdateAnimations } from "../Graphs/31UpdateAnimations/31UpdateAnimats"
+
 
 import Hero from "./Hero";
 
@@ -53,6 +55,9 @@ const DecreasingPanels = () => {
 
       <div id="content">
         <div id="panels">
+          <section className="panel">
+            <UpdateAnimations />
+          </section>
           <section className="panel">
             <MyForceLayout />
           </section>

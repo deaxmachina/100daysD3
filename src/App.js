@@ -2,13 +2,14 @@ import React , { useEffect, useState } from "react";
 import "./App.css";
 import DecreasingPanels from "./Components/DecreasingPanels";
 import HeroMobile from "./Components/HeroMobile";
+//import { MyInteractions } from "./Graphs/33Interactions/33MyInteractions";
 
 
 const App = () => {
 
   const [isDesktop, setIsDesktop] = useState(null)
   const updatePredicate = function () {
-    setIsDesktop(window.innerWidth > 600)
+    setIsDesktop(window.innerWidth > 1000)
   }
   useEffect(() => {
     updatePredicate();

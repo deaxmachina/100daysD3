@@ -24,6 +24,7 @@ import { MyBrushableHistogram } from "../Graphs/26Histogram/26MyBrushableHistogr
 import { Petals } from "../Graphs/27Petals/27Petals";
 import {MyForceLayout} from "../Graphs/30ForceLayout/30MyForceLayout";
 import { UpdateAnimations } from "../Graphs/31UpdateAnimations/31UpdateAnimats"
+import { MyInteractions } from "../Graphs/33Interactions/33MyInteractions";
 
 
 import Hero from "./Hero";
@@ -55,6 +56,9 @@ const DecreasingPanels = () => {
 
       <div id="content">
         <div id="panels">
+          <section className="panel">
+            <MyInteractions />
+          </section>
           <section className="panel">
             <UpdateAnimations />
           </section>

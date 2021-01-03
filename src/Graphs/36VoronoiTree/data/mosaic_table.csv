@@ -1,0 +1,39 @@
+order,all,WRKLOSS,expensesDif,curFoodSuf,foodConf,tenure,tenureConf,black,hispanic,other,white,total
+1,1_Not difficult,1,Not difficult,,,,,1179485,2214938,1779328,14073032,19246782
+2,1_Difficult_Enough food_Not very confident_Caught up_ not high confidence,1,Difficult,Enough food,Not very confident,Caught up,not high confidence,2101852,4603108,1549040,8590953,16844953
+3,1_Difficult_Enough food_Not very confident_No payments,1,Difficult,Enough food,Not very confident,No payments,,668843,1373622,871644,3950701,6864809
+4,1_Difficult_Enough food_Very confident_Caught up_ high confidence,1,Difficult,Enough food,Very confident,Caught up,high confidence,474313,745641,751541,4503431,6474926
+5,1_Difficult_Enough food_Not very confident_Caught up_ high confidence,1,Difficult,Enough food,Not very confident,Caught up,high confidence,923922,1343367,632034,5399785,8299108
+6,1_Difficult_Enough food_Not very confident_Not caught up_ foreclosure or eviction at least somewhat likely,1,Difficult,Enough food,Not very confident,Not caught up,foreclosure or eviction at least somewhat likely,802245,942314,516172,2250580,4511311
+7,1_Difficult_Not always enough_Caught up_ not high confidence,1,Difficult,Not always enough,,Caught up,not high confidence,1068016,1808416,396636,2868362,6141430
+8,1_Difficult_Not always enough_Not caught up_ foreclosure or eviction at least somewhat likely,1,Difficult,Not always enough,,Not caught up,foreclosure or eviction at least somewhat likely,1215722,1073416,388378,1953279,4630794
+9,1_Difficult_Not always enough_No payments,1,Difficult,Not always enough,,No payments,,672308,781427,335469,1386226,3175431
+10,1_Difficult_Enough food_Very confident_No payments,1,Difficult,Enough food,Very confident,No payments,,232543,179210,191452,1563211,2166416
+11,1_Difficult_Enough food_Not very confident_Not caught up_ forclosure or eviction not likely,1,Difficult,Enough food,Not very confident,Not caught up,forclosure or eviction not likely,345027,496159,179186,881922,1902294
+12,1_Difficult_Enough food_Very confident_Caught up_ not high confidence,1,Difficult,Enough food,Very confident,Caught up,not high confidence,152960,311002,143747,640910,1248619
+13,1_Difficult_Enough food_Very confident_Not caught up_ forclosure or eviction not likely,1,Difficult,Enough food,Very confident,Not caught up,forclosure or eviction not likely,119442,68379,81724,393253,662797
+14,1_Difficult_Not always enough_Caught up_ high confidence,1,Difficult,Not always enough,,Caught up,high confidence,167663,168264,79573,803712,1219213
+15,1_Difficult_Not always enough_Not caught up_ forclosure or eviction not likely,1,Difficult,Not always enough,,Not caught up,forclosure or eviction not likely,144472,317064,74754,524466,1060756
+16,1_Difficult_Enough food_Very confident_Not caught up_ foreclosure or eviction at least somewhat likely,1,Difficult,Enough food,Very confident,Not caught up,foreclosure or eviction at least somewhat likely,30543,123125,34887,172153,360707
+17,2_Not difficult,2,Not difficult,,,,,4129899,6180345,5337201,49073770,64721215
+18,2_Difficult_Enough food_Not very confident_Caught up_ not high confidence,2,Difficult,Enough food,Not very confident,Caught up,not high confidence,950743,1528389,921411,4333236,7733779
+19,2_Difficult_Enough food_Very confident_Caught up_ high confidence,2,Difficult,Enough food,Very confident,Caught up,high confidence,399197,725581,639898,3912776,5677452
+20,2_Difficult_Enough food_Not very confident_Caught up_ high confidence,2,Difficult,Enough food,Not very confident,Caught up,high confidence,727287,735316,572221,4316946,6351769
+21,2_Difficult_Enough food_Not very confident_No payments,2,Difficult,Enough food,Not very confident,No payments,,587936,598341,491221,3844221,5521719
+22,2_Difficult_Enough food_Not very confident_Not caught up_ foreclosure or eviction at least somewhat likely,2,Difficult,Enough food,Not very confident,Not caught up,foreclosure or eviction at least somewhat likely,196949,126789,191545,348458,863741
+23,2_Difficult_Enough food_Very confident_No payments,2,Difficult,Enough food,Very confident,No payments,,123347,151580,177761,1858023,2310711
+24,2_Difficult_Not always enough_Caught up_ not high confidence,2,Difficult,Not always enough,,Caught up,not high confidence,247046,294515,174222,1039244,1755028
+25,2_Difficult_Enough food_Very confident_Caught up_ not high confidence,2,Difficult,Enough food,Very confident,Caught up,not high confidence,151433,279572,86970,407491,925466
+26,2_Difficult_Not always enough_Not caught up_ foreclosure or eviction at least somewhat likely,2,Difficult,Not always enough,,Not caught up,foreclosure or eviction at least somewhat likely,188068,135050,78676,349008,750801
+27,2_Difficult_Enough food_Not very confident_Not caught up_ forclosure or eviction not likely,2,Difficult,Enough food,Not very confident,Not caught up,forclosure or eviction not likely,67213,141570,72104,372564,653451
+28,2_Difficult_Not always enough_No payments,2,Difficult,Not always enough,,No payments,,175873,273045,71868,483984,1004769
+29,2_Difficult_Enough food_Very confident_Not caught up_ forclosure or eviction not likely,2,Difficult,Enough food,Very confident,Not caught up,forclosure or eviction not likely,39324,43359,27796,147439,257919
+30,2_Difficult_Not always enough_Caught up_ high confidence,2,Difficult,Not always enough,,Caught up,high confidence,55119,187058,23063,385439,650678
+31,2_Difficult_Enough food_Very confident_Not caught up_ foreclosure or eviction at least somewhat likely,2,Difficult,Enough food,Very confident,Not caught up,foreclosure or eviction at least somewhat likely,28768,49272,4730,62328,145097
+32,2_Difficult_Not always enough_Not caught up_ forclosure or eviction not likely,2,Difficult,Not always enough,,Not caught up,forclosure or eviction not likely,115961,29069,3287,44022,192340
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,

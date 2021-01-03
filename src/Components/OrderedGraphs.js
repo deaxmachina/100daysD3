@@ -14,8 +14,16 @@ import { MyGroupedBarChart } from "../Graphs/13GroupedBarChart/13MyGroupedBarCha
 import { MyStackedBarChart } from "../Graphs/14StackedBarChart/14MyStackedBarChart";
 import { MyAreaChart } from "../Graphs/15AreaChart/15MyAreaChart"
 import { MyScatterPlot } from "../Graphs/17ScatterPlot/17MyScatterPlot";
-//import { HeatMap } from "./Graphs/18HeatMap/18HeatMap";
-import { MyRadialAreaChart } from "../Graphs/19RadialAreaChart/19MyRadialAreaChart"
+import { MyRadialAreaChart } from "../Graphs/19RadialAreaChart/19MyRadialAreaChart";
+import { PieCharts } from "../Graphs/21PieCharts/21MyPieCharts";
+import { WorldHeritageSites } from "../Graphs/25WorldHeritageSites/App";
+import { MyBrushableHistogram } from "../Graphs/26Histogram/26MyBrushableHistogram";
+import { Petals } from "../Graphs/27Petals/27Petals";
+import {MyForceLayout} from "../Graphs/30ForceLayout/30MyForceLayout";
+import { UpdateAnimations } from "../Graphs/31UpdateAnimations/31UpdateAnimats"
+import { MyInteractions } from "../Graphs/33Interactions/33MyInteractions";
+import { VoronoiTree } from "../Graphs/36VoronoiTree/36MyVoronoiTree"
+
 
 import Hero from "./Hero";
 
@@ -23,23 +31,31 @@ const OrderedGraphs = () => {
 
   return (
     <>
-    {/* 
-      <MyBarChartVertical />
-      <MyBarChartHorizontal />
-      <MyBarChartSortable />
-    */}
-      <MyBarChartStackedNormalized />
-      <MyLineChart />
-      <MyTwoLineChart />
-      <MyRadialGradient />
-      <MyStreamGraph />
-      <MyDivergingBarChart />
-      <MyPieChart />
-      <MyGroupedBarChart />
-      <MyStackedBarChart />
-      <MyAreaChart />
-      <MyScatterPlot />
+      <Hero />
+
+      <VoronoiTree />
+      <MyInteractions />
+      <UpdateAnimations />
+      <MyForceLayout />
+      <Petals />
+      <MyBrushableHistogram />
+      <WorldHeritageSites />
+      <PieCharts />
       <MyRadialAreaChart />
+      <MyScatterPlot />
+      <MyAreaChart />
+      <MyStackedBarChart />
+      <MyGroupedBarChart />
+      <MyPieChart />
+      <MyDivergingBarChart />
+      <MyStreamGraph />
+      <MyRadialGradient />
+      <MyTwoLineChart />
+      <MyLineChart />
+      <MyBarChartStackedNormalized />
+      <MyBarChartSortable />
+      <MyBarChartHorizontal />
+      <MyBarChartVertical /> 
     </>
   )
 };

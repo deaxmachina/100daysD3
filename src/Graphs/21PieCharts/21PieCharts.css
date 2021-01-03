@@ -16,7 +16,7 @@
   display: grid;
   justify-content: space-between;
   margin: auto;
-  width: 80% !important;
+  width: 90% !important;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   grid-auto-rows: minmax(100px, auto);

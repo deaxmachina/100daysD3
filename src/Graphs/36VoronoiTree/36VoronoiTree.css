@@ -1,0 +1,24 @@
+.page-container36 {
+  color: white;
+  background: 
+  center / auto repeat url(""), 
+  #161a1d;
+  background-blend-mode: screen;
+  margin: auto;
+}
+
+.wrapper36 {
+  background-color: #161a1d;
+  padding: 0;
+  text-align: center;
+  width: 670px;
+}
+
+.MuiSlider-markLabel {
+  color: white !important;
+  font-size: 10px !important;
+}
+.MuiSlider-mark {
+  height: 0px !important;
+}
+

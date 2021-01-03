@@ -35,7 +35,7 @@ const MyInteractions = () => {
   const width = 800;
   let dimensions = {
     width: width,
-    height: width * 0.7,
+    height: 520,
     margin: {
       top: 70,
       right: 10,

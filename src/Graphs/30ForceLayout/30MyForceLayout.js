@@ -30,7 +30,7 @@ const MyForceLayout = () => {
   /// constatns ///
   // dimensions 
   const width = 850;
-  const height = 600;
+  const height = 550;
   const n = 200; // initial number of circles 
 
   /// Colour Scale ///
@@ -80,7 +80,7 @@ const MyForceLayout = () => {
       // add a circle surrouding the whole force graph 
       const circle = g
         .append("circle")
-        .attr("r", 290)
+        .attr("r", 260)
         .attr("fill", "#ffdab9")
         .attr("fill-opacity", 0.2)
         .attr("stroke", "#ff006e")

@@ -12,7 +12,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
 
 
-
+const GraphExplain = () => {
+  return (
+    <>
+      <p style={{marginTop: '1%'}}>Data source: <a href="https://www.americandialect.org/woty" target="_blank">American Dialect Society </a></p>
+    </>
+  )
+}
 
 const MyTimelineAnimation = () => {
 
@@ -28,6 +34,7 @@ const MyTimelineAnimation = () => {
   // whether the timeline is moving 
   const [moving, setMoving] = useState(false);
   const [selectedWord, setSelectedWord] = useState(null);
+  const [revealGraphExplanation, setRevealGraphExplanation] = useState(false);
 
   /// constatns ///
   // dimensions 
@@ -35,7 +42,7 @@ const MyTimelineAnimation = () => {
   const width = 950 - margin.left - margin.right;
   const height = 500 - margin.top - margin.bottom;
   // set the time it takes to go through the animation once 
-  const timeToAnimate = 2000;
+  const timeToAnimate = 1000;
 
   /// Data load ///
   useEffect(() => {
@@ -177,6 +184,7 @@ const MyTimelineAnimation = () => {
         currentValue = currentValue + sizeOfStep;
         if (currentValue >= targetValue + sizeOfStep) {
           setMoving(false);
+          clearInterval(timer)
           // if we reach the end of the line set the button to replay 
           playButton.text("Replay")
         }
@@ -200,6 +208,8 @@ const MyTimelineAnimation = () => {
           } else if (button.text() == "Replay") {
             // setting the currentValue back to 0 moves you back to the start of the slider
             currentValue = 0;
+            setMoving(true)
+            timer = setInterval(step, timeToAnimate);
             button.text("Pause");
           }
         })
@@ -209,12 +219,28 @@ const MyTimelineAnimation = () => {
       console.log("Missing data")
     }
   }, [data])
+
+  const toggleGraphExplanation = () => {
+    setRevealGraphExplanation(!revealGraphExplanation)
+  }
   
   return (
     <div className="page-container page-container-44">
       <h1>Day 44</h1>
-      <h2>Timeline Animation</h2>
+      <h2>Word of the Year (USA)</h2>
       <h3>10th Jan 2021</h3>
+      <button 
+        className="graph-explain-icon" 
+        onClick={toggleGraphExplanation}
+      >
+        <FontAwesomeIcon icon={faBookOpen} size="md"/>
+        <span className="info-span">info</span>
+      </button>  
+      {
+        revealGraphExplanation 
+        ? <GraphExplain />
+        : null
+      } 
 
       <div className="wrapper wrapper-44">
         <button id="play-button" ref={playButtonRef}>Play</button>

@@ -9,7 +9,7 @@ const App = () => {
 
   const [isDesktop, setIsDesktop] = useState(null)
   const updatePredicate = function () {
-    setIsDesktop(window.innerWidth > 1100)
+    setIsDesktop(window.innerWidth > 1000)
   }
   useEffect(() => {
     updatePredicate();

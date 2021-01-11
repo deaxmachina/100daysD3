@@ -22,7 +22,8 @@ import { Petals } from "../Graphs/27Petals/27Petals";
 import {MyForceLayout} from "../Graphs/30ForceLayout/30MyForceLayout";
 import { UpdateAnimations } from "../Graphs/31UpdateAnimations/31UpdateAnimats"
 import { MyInteractions } from "../Graphs/33Interactions/33MyInteractions";
-import { VoronoiTree } from "../Graphs/36VoronoiTree/36MyVoronoiTree"
+import { VoronoiTree } from "../Graphs/36VoronoiTree/36MyVoronoiTree";
+import { MyTimelineAnimation } from "../Graphs/44TimelineAnimation/44MyTimelineAnimation";
 
 
 import Hero from "./Hero";
@@ -33,6 +34,7 @@ const OrderedGraphs = () => {
     <>
       <Hero />
 
+      <MyTimelineAnimation />
       <VoronoiTree />
       <MyInteractions />
       <UpdateAnimations />

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Domine&display=swap');
+
+
+.page-container-44 {
+  color: #fffcf2;
+  background: #252422;
+  margin: auto;
+  height: 100vh;
+}
+
+.wrapper-44 {
+  position: relative;
+  background-color: #252422;
+  padding: 0;
+  text-align: center;
+  width: 950px;
+}
+
+
+
+#play-button {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  background: #ccc5b9;
+  border-radius: 6px;
+  color: white;
+  margin: 0;
+  width: 70px;
+  cursor: pointer;
+  height: 30px;
+  outline: none;
+  border: 2px solid #fffcf2;
+  padding: 2px;
+  text-transform: uppercase;
+}
+
+#play-button:hover {
+  background-color: #eb5e28;
+}  
+
+.ticks {
+  font-size: 10px;
+}
+
+/************** Slider ******************/
+.track,
+.track-inset,
+.track-overlay {
+  stroke-linecap: round;
+}
+
+/* the outside of the track */
+.track {
+  stroke: #fffcf2;
+  stroke-opacity: 1;
+  stroke-width: 20px;
+}
+
+/* the inside of the track */
+.track-inset {
+  stroke: #eb5e28;
+  stroke-width: 15px;
+}
+
+.track-overlay {
+  pointer-events: stroke;
+  stroke-width: 80px;
+  stroke: transparent;
+  cursor: crosshair;
+}
+
+.handle {
+  fill: #fffcf2;
+  stroke:  #eb5e28;
+  stroke-opacity: 1;
+  stroke-width: 3px;
+}
+
+/* For the graph */
+
+.graph-container-44 {
+  position: absolute;
+  background: #eb5e28;
+  width: 600px;
+  height: 360px;
+  top: 130px;
+  left: 175px;
+  border-radius: 200px;
+  text-align: center;
+  padding: 50px;
+  box-sizing: border-box;
+  border: 5px solid #fffcf2;
+}
+
+.graph-container-44-word {
+  text-align: center;
+  margin-top: 8%;
+  font-family: 'Domine', serif;
+  font-size: 40px;
+}
+
+.graph-container-44-description {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+}

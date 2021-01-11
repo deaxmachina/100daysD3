@@ -40,7 +40,7 @@ const MyTimelineAnimation = () => {
   // dimensions 
   const margin = {top:70, right:50, bottom:0, left:50};
   const width = 950 - margin.left - margin.right;
-  const height = 500 - margin.top - margin.bottom;
+  const height = 300 - margin.top - margin.bottom;
   // set the time it takes to go through the animation once 
   const timeToAnimate = 1000;
 

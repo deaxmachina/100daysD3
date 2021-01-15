@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.page-container-48 {
+  background-color: #f2e9e4;
+  color: #820263;
+}
+
+.wrapper-48 {
+  position: relative;
+  background-color: #f2e9e4;
+  padding: 30px;
+  width: 1200px !important;
+}
+
+.pie-text-48 {
+  fill: #820263;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+
+.graph-title-48 {
+  color: #820263;
+  font-family: 'Indie Flower', cursive;
+  font-size: 45px;
+  margin-top: 40px;
+  background-color: white;
+  padding: 8px;
+  width: 60%;
+  border-radius: 100px;
+}

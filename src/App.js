@@ -3,6 +3,7 @@ import "./App.css";
 //import DecreasingPanels from "./Components/DecreasingPanels";
 import OrderedGraphs from "./Components/OrderedGraphs"
 import HeroMobile from "./Components/HeroMobile";
+import {PatternPie} from "./Graphs/48PatternPie/48PatternPie"
 
 
 const App = () => {

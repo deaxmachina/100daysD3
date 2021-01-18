@@ -53,7 +53,7 @@ const StreamGraph = () => {
   /// D3 code ///
   useEffect(() => {
     if (data){
-      console.log(data)
+
       /// Data transform ///
       const stack = d3.stack()
         // these are all the columns or fields for which we want to have one 
@@ -119,9 +119,7 @@ const StreamGraph = () => {
        d3.select(xAxisRef.current).call(xAxis);
        d3.select(yAxisRef.current).call(yAxis);
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data, optionOffset, optionStackOrder])
 
   // function to select the stack order  

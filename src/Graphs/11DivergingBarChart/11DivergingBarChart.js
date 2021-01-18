@@ -44,7 +44,7 @@ const DiverginingBarChart = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data) {
-      console.log(data)
+
       /// Scales ///
       // X Scale 
       const x = d3.scaleLinear()
@@ -112,9 +112,7 @@ const DiverginingBarChart = () => {
       d3.select(xAxisRef.current).call(xAxis)
       d3.select(yAxisRef.current).call(yAxis)
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
   return (

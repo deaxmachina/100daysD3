@@ -164,9 +164,7 @@ const MyBarChartSortable = () => {
         .selectAll(".tick")
           .delay((d, i) => i * 20);
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data, sortingOrder])
 
   function sortOrder(sortingOrder){

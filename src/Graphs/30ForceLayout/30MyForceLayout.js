@@ -55,7 +55,6 @@ const MyForceLayout = () => {
   /// D3 Code ///
   useEffect(() => {
     if (nodes) {
-      console.log(nodes)
 
       /// Graph ///
       // Graphing space 
@@ -113,9 +112,7 @@ const MyForceLayout = () => {
       // show the initial arrangement
       tick();
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [nodes]);
 
   const toggleGraphExplanation = () => {

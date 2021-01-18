@@ -24,7 +24,9 @@ import { UpdateAnimations } from "../Graphs/31UpdateAnimations/31UpdateAnimats"
 import { MyInteractions } from "../Graphs/33Interactions/33MyInteractions";
 import { VoronoiTree } from "../Graphs/36VoronoiTree/36MyVoronoiTree";
 import { MyTimelineAnimation } from "../Graphs/44TimelineAnimation/44MyTimelineAnimation";
-import {PatternPie} from "../Graphs/48PatternPie/48PatternPie"
+import { PatternPie } from "../Graphs/48PatternPie/48PatternPie"
+import { EventsTimeline } from "../Graphs/50EventsTimeline/50EventsTimeline";
+
 
 
 import Hero from "./Hero";
@@ -35,6 +37,7 @@ const OrderedGraphs = () => {
     <>
       <Hero />
 
+      <EventsTimeline />
       <PatternPie />
       <MyTimelineAnimation />
       <VoronoiTree />

@@ -191,9 +191,7 @@ const TimelineAnimation = () => {
         })
 
  
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
   
   return (

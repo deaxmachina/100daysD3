@@ -69,7 +69,7 @@ const MyPieChart = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data){
-      console.log(data)
+
       /// Scales ///
       // Colour Scale 
       const colour = d3.scaleOrdinal()
@@ -157,9 +157,7 @@ const MyPieChart = () => {
               .attr("opacity", 0.3)
 
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
   const toggleGraphExplanation = () => {

@@ -3,14 +3,14 @@ import "./App.css";
 //import DecreasingPanels from "./Components/DecreasingPanels";
 import OrderedGraphs from "./Components/OrderedGraphs"
 import HeroMobile from "./Components/HeroMobile";
-import {PatternPie} from "./Graphs/48PatternPie/48PatternPie"
+//import { EventsTimeline } from "./Graphs/50EventsTimeline/50EventsTimeline";
 
 
 const App = () => {
 
   const [isDesktop, setIsDesktop] = useState(null)
   const updatePredicate = function () {
-    setIsDesktop(window.innerWidth > 1000)
+    setIsDesktop(window.innerWidth > 100)
   }
   useEffect(() => {
     updatePredicate();

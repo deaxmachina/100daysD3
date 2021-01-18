@@ -41,7 +41,7 @@ const ScatterPlot = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data){
-      console.log(data)
+
       /// Scales ///
       // X Scale 
       const x = d3.scaleUtc()
@@ -110,9 +110,7 @@ const ScatterPlot = () => {
 
 
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
 

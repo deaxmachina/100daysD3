@@ -32,7 +32,7 @@ const GroupedBarChart = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data) {
-      console.log(data)
+
       // columns that we want to use for bars (age groups)
       const keys = data.columns.slice(1)
       // what we want to groupby - state 
@@ -134,9 +134,7 @@ const GroupedBarChart = () => {
 
 
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
 

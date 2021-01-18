@@ -50,11 +50,9 @@ const UpdateAnimations = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data) {
-      console.log(data)
+
       // define transition 
       const t = d3.transition().duration(1000)
-
-      
 
       /// Version 1 ///
       // This has the effect of the rects going down when the data is 
@@ -122,16 +120,7 @@ const UpdateAnimations = () => {
           .attr("y", d => height - d)
           .attr("x", (d, i) => i * rectWidth)
 
-
-
-
-      
-
-
-
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data]);
 
   const toggleGraphExplanation = () => {

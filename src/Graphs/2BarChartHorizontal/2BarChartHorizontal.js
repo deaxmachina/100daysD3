@@ -103,9 +103,7 @@ const BarChartHorizontal = () => {
         .call(xAxis);
       svg.append("g")
         .call(yAxis);
-    } else {
-      console.log("No data")
-    }
+    } 
   }, [data])
 
 

@@ -257,14 +257,7 @@ const Interactions = () => {
         tooltip.style("opacity", 0)
       }
 
-
-
-
-
-
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data]);
 
   const toggleGraphExplanation = () => {

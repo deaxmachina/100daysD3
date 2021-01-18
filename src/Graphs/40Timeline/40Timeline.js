@@ -45,7 +45,6 @@ const Timeline = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data) {
-      console.log(data)
 
       // Note these can all be states; moving used to be a var and I set it to a state but the same refactoring can be done with the other elements as well 
       //let moving = false;
@@ -150,9 +149,7 @@ const Timeline = () => {
           }
         })
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data]);
 
 

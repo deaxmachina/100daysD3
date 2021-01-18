@@ -25,7 +25,6 @@ const ForceLayout = () => {
       r: 2 * (4 + 9 * Math.random() ** 2),
       color: color(i)
     }));
-    console.log(nodes);
 
     /// Graph ///
     // Graphing space 

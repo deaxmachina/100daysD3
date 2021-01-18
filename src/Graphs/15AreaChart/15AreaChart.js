@@ -32,7 +32,7 @@ const AreaChart = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data){
-      console.log(data)
+
       /// Scales ///
       // X Scale 
       const x = d3.scaleUtc()
@@ -82,7 +82,6 @@ const AreaChart = () => {
       // Events testing 
       areaChart
         .on("mousemove", function(e){
-          //console.log(this)
           areaChart.attr("fill", "pink")
         })
         .on("mouseleave", function(e){
@@ -95,9 +94,7 @@ const AreaChart = () => {
 
 
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
 

@@ -112,9 +112,7 @@ const VoronoiTree = () => {
         .attr('fill', 'white')
         .style('font-family', 'sans-serif');
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data, selectedYear]);
 
   const toggleGraphExplanation = () => {

@@ -42,13 +42,12 @@ const StackedBarChart = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data) {
-      console.log(data)
+
       /// Data transform ///
       // transform into stack 
       const stack = d3.stack()
         .keys(data.columns.slice(1)) // categories we want to stack 
       const series = stack(data).map(d => (d.forEach(v => v.key = d.key), d))
-      console.log(series)
 
       /// Scales ///
       // X Scale 
@@ -105,9 +104,7 @@ const StackedBarChart = () => {
       d3.select(xAxisRef.current).call(xAxis)
       d3.select(yAxisRef.current).call(yAxis)
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
 

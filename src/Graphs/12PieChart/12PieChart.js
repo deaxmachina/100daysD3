@@ -29,7 +29,7 @@ const PieChart = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data){
-      console.log(data)
+
       /// Scales ///
       // Colour Scale - one colour for each category 
       const color = d3.scaleOrdinal()
@@ -106,9 +106,7 @@ const PieChart = () => {
             .attr("fill-opacity", 0.7)
             .text(d => d.data.value.toLocaleString()));
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
 

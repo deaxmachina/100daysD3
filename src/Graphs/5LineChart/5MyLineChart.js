@@ -166,9 +166,7 @@ const MyLineChart = () => {
       d3.select(xAxisRef.current).call(xAxis)
       d3.select(yAxisRef.current).call(yAxis)
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [selectedData])
 
   const handleBoroughChange = (e) => {

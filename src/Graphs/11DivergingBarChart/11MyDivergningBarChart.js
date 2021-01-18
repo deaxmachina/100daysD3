@@ -62,7 +62,6 @@ const MyDivergingBarChart = () => {
       // pick out only the needed data 
       const dUseful = dSorted.map(element => _.pick(element, ["name", "value", "borough"]))
       setAllData(dUseful)
-      console.log(_.filter(dUseful, { 'borough': "Brent" }))
     })
   }, [])
 
@@ -198,9 +197,7 @@ const MyDivergingBarChart = () => {
       d3.select(xAxisRef.current).call(xAxis);
       d3.select(yAxisRef.current).call(yAxis);
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [allData, borough])
 
   // to change the borough and thus trigger a chart update 

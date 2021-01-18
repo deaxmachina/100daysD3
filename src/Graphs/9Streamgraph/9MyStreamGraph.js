@@ -128,7 +128,7 @@ const MyStreamGraph = () => {
   /// D3 code ///
   useEffect(() => {
     if (data && dataByContinent && dataByIncome) {
-      console.log(data)
+
       /// Data transform ///
       const stack = d3.stack()
         // will create an entry for each contininent (or similar) and this then 
@@ -257,9 +257,7 @@ const MyStreamGraph = () => {
         .attr("fill", "#1f2421")
 
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data, dataByContinent, dataByIncome, optionOffset, optionStackOrder, grouping, groupingName])
 
   // function to select the stack order  

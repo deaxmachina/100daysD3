@@ -53,7 +53,6 @@ const PatternPie = () => {
   useEffect(() => {
     if (dataAll) {
 
-      console.log(dataAll)
       // compute all the years 
       const years = dataAll.map(d => d.year)
 
@@ -180,12 +179,7 @@ const PatternPie = () => {
           }))
         });
 
-
-
-
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [dataAll]);
 
   const toggleGraphExplanation = () => {

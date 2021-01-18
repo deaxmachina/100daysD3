@@ -106,7 +106,7 @@ const MyRadialGradient = () => {
   /// D3 code ///
   useEffect(() => {
     if (data){
-      console.log(data)
+
       /// Scales ///
       // X Scale 
       const x = d3.scaleBand()
@@ -273,9 +273,7 @@ const MyRadialGradient = () => {
 
 
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data, maxData, allData, selectedEarthquake])
 
   const toggleGraphExplanation = () => {

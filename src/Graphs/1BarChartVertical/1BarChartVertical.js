@@ -77,7 +77,7 @@ const BarChartVertical = () => {
 
   useEffect(() => {
     if (data) {
-      console.log(data)
+
       /// SCALES ///
       const x = d3.scaleBand()
         .domain(d3.range(data.length)) // array of elements one for each bar
@@ -129,8 +129,6 @@ const BarChartVertical = () => {
         .call(yAxis)
 
 
-    } else {
-      console.log("no data")
     }
   }, [data])
 
@@ -300,9 +298,7 @@ const MyBarChartVertical = () => {
           .call(xAxis)
       svg.append("g")
           .call(yAxis)
-    } else {
-      console.log("missing data")
-    }
+    } 
   }, [data])
 
   const toggleGraphExplanation = () => {

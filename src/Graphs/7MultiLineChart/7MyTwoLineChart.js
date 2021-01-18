@@ -66,7 +66,7 @@ const MyTwoLineChart = () => {
   /// D3 code ///
   useEffect(() => {
     if (data){
-      console.log(data)
+
       /// Scales ///
       // X Scale 
       const x = d3.scaleUtc()
@@ -147,9 +147,7 @@ const MyTwoLineChart = () => {
       d3.select(yAxisRef.current).call(yAxis)
 
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
   const toggleGraphExplanation = () => {

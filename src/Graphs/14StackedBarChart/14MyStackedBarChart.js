@@ -42,7 +42,6 @@ const MyStackedBarChart = () => {
     d3.csv(dataLoad, d3.autoType).then(d => {
       // columns with the types of employment 
       const categories = d.columns.slice(1)
-      console.log(categories)
       // add a total across all the categories
       d.forEach(element => (
         element.total = d3.sum(categories, category => element[category])
@@ -56,12 +55,11 @@ const MyStackedBarChart = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data) {
-      console.log(data)
+
       /// Data transform ///
       const stack = d3.stack()
         .keys(data.columns.slice(1)) // the categories i.e. employment types 
       const series = stack(data).map(d => (d.forEach(v => v.key = d.key), d))
-      console.log(series)
 
       /// Scales ///
       // X Scale 
@@ -152,9 +150,7 @@ const MyStackedBarChart = () => {
         .attr("font-family", "sans-serif")
         .attr("font-size", 12)
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
   const toggleGraphExplanation = () => {

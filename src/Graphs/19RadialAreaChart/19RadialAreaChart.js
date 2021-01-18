@@ -27,7 +27,7 @@ const RadialAreaChart = () => {
   /// Data load ///
   useEffect(() => {
     d3.csv(dataLoad, d3.autoType).then(rawdata => {
-      //console.log(rawdata)
+
       const data = Array.from(d3.rollup(
         rawdata, 
         v => ({
@@ -48,7 +48,7 @@ const RadialAreaChart = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data){
-      console.log(data)
+
       /// Scales ///
       // X Scale - for the time; i.e. the circles scale 
       const x = d3.scaleUtc()
@@ -162,9 +162,7 @@ const RadialAreaChart = () => {
       d3.select(yAxisRef.current).call(yAxis)
 
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
 

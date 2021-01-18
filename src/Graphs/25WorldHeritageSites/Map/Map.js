@@ -30,7 +30,7 @@ const BubbleMap = ({worldAtlas: { land, interiors }, data, width, height, brushE
   useEffect(() => {
 
     if (!land || !interiors || !data) {
-      console.log("np land")
+
     } else {
       // zoom and pan
       /*

@@ -71,7 +71,7 @@ const MyInteractions = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data) {
-      console.log(data)
+
       /// SCALES ///
       const x = d3.scaleBand()
         .domain(d3.range(data.length)) // array of elements one for each bar
@@ -179,9 +179,7 @@ const MyInteractions = () => {
         d3.select(this).attr("fill", colour)
       }
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data]);
 
   const toggleGraphExplanation = () => {

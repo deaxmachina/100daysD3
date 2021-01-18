@@ -71,7 +71,6 @@ const VoronoiTree = () => {
   useEffect(() => {
       d3.csv("https://gist.githubusercontent.com/will-r-chase/16827fa79e02af9e3a0651fb0d79b426/raw/92b321a8bc4d98e463156ef03a5da5cf05065704/freedom_clean.csv", d3.autoType).then(freedom => {
         const freedom_year = freedom.filter(obj => {return obj.year === 2011})
-        console.log(freedom_year)
         const freedom_nest = d3.group(freedom_year, d => d.region_simple)
         //const data_nested = {key: "freedom_nest", values: freedom_nest}
         const population_hierarchy = d3.hierarchy(freedom_nest).sum(d => d.population)
@@ -83,7 +82,6 @@ const VoronoiTree = () => {
   useEffect(() => {
     if (data) {
 
-      console.log(data)
       /// Graph ///
       // Graphing area 
       const svg = d3.select(gRef.current)
@@ -108,7 +106,6 @@ const VoronoiTree = () => {
       const allNodes = data.descendants()
         .sort((a, b) => b.depth - a.depth)
         .map((d, i) => Object.assign({}, d, {id: i}));
-      console.log(allNodes)
 
     voronoi.selectAll('path')
     .data(allNodes)
@@ -123,12 +120,7 @@ const VoronoiTree = () => {
       .attr("stroke-width", d => 7 - d.depth*2.8)
       .style('fill', 'red');
 
-
-
-
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data]);
 
   const toggleGraphExplanation = () => {

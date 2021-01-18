@@ -63,7 +63,7 @@ const MyScatterPlot = () => {
   
   useEffect(() => {
     if (data){
-      console.log(data)
+
       /// Scales ///
       // X Scale 
       const x = d3.scaleLinear()
@@ -163,14 +163,11 @@ const MyScatterPlot = () => {
       d3.select(yAxisRef.current).call(yAxis);
 
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data, accessor])
 
   const changeIndicator = (e) => {
     const selectedIndicator = e.target.value
-    console.log(selectedIndicator)
     setAccessor(selectedIndicator)
   }
 

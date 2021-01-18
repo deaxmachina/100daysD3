@@ -163,9 +163,7 @@ const MyBarChartHorizontal = () => {
           .call(yAxis);
 
 
-    } else {
-      console.log("No data")
-    }
+    } 
   }, [data])
 
   const toggleGraphExplanation = () => {

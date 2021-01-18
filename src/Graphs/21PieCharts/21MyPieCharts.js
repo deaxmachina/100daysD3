@@ -94,7 +94,7 @@ const PieChart = (props) => {
   /// D3 Code ///
   useEffect(() => {
     if (data) {
-      console.log(data)
+
       /// Scales ///
       // X Scale - map the genres to bands 
       const x = d3.scaleBand()
@@ -190,9 +190,7 @@ const PieChart = (props) => {
       d3.select(yAxisRef.current).call(yAxis)
 
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data]);
 
 
@@ -231,7 +229,7 @@ const PieCharts = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data) {
-      console.log(data)
+
       // Legend 
       const svg = d3.select(svgRef.current)
         .attr("width", 1000)
@@ -265,9 +263,7 @@ const PieCharts = () => {
           .text(d => d.genre)
 
             
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
   const toggleGraphExplanation = () => {

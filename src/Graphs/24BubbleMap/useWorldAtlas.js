@@ -7,7 +7,6 @@ const jsonUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json";
 
 export const useWorldAtlas = () => {
   const [data, setData] = useState(null);
-  console.log(data);
 
   useEffect(() => {
     json(jsonUrl).then(topology => {

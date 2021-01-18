@@ -59,9 +59,6 @@ const VoronoiTree = () => {
   useEffect(() => {
     if (data && taxonomyHierarchy) {
 
-      console.log(data)
-      console.log(taxonomyHierarchy)
-
       function colorHierarchy(hierarchy) {
         hierarchy.color = hierarchy.data.node_attributes[0].color || 'black';
         if(hierarchy.children) {
@@ -94,8 +91,6 @@ const VoronoiTree = () => {
         .sort((a, b) => b.depth - a.depth)
         .map((d, i) => Object.assign({}, d, {id: i}));
 
-      console.log(allNodes)
-
       voronoi.selectAll('path')
           .data(allNodes)
           .join('path')
@@ -122,9 +117,7 @@ const VoronoiTree = () => {
         .style('font-size', '7px');
 
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data, taxonomyHierarchy]);
 
   const toggleGraphExplanation = () => {

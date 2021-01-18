@@ -92,9 +92,7 @@ const LineChart = () => {
 
 
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
 

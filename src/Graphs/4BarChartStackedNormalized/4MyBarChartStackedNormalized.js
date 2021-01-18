@@ -156,9 +156,7 @@ const MyBarChartStackedNormalized = () => {
       const cy = d3.select(yAxisRef.current)
         .call(yAxis)
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
   const changeYear = (year) => {

@@ -51,7 +51,6 @@ const MyBrushableHistogram = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data){
-      console.log(data)
 
       /// Scales ///
       // X Scale 
@@ -127,9 +126,7 @@ const MyBrushableHistogram = () => {
         setBrushExtent(event.selection && event.selection.map(xScale.invert));
       });
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data, width, height])
 
 

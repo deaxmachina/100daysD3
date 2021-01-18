@@ -45,10 +45,9 @@ const Histogram = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data) {
-      console.log(data)
+
       /// make bins ///
       const bins = d3.bin().thresholds(40)(data)
-      console.log(bins)
 
       /// Scales ///
       // X Scale 
@@ -109,9 +108,7 @@ const Histogram = () => {
       d3.select(xAxisRef.current).call(xAxis)
       d3.select(yAxisRef.current).call(yAxis)
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data]);
 
   const toggleGraphExplanation = () => {

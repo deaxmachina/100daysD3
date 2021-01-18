@@ -50,7 +50,7 @@ const MyRadialAreaChart = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data) {
-      console.log(data)
+
       /// Scales ///
       // X Scale - for the time; i.e. the circles scale 
       const x = d3.scaleLinear()
@@ -172,9 +172,7 @@ const MyRadialAreaChart = () => {
       d3.select(xAxisRef.current).call(xAxis)
       d3.select(yAxisRef.current).call(yAxis)
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data]);
 
   const toggleGraphExplanation = () => {

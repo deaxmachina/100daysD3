@@ -66,7 +66,7 @@ const MyGroupedBarChart = () => {
   /// D3 Code ///
   useEffect(() => {
     if (data) {
-      console.log(data)
+
       // columns that we want to use for bars (medal type)
       const keys = ["Gold", "Silver", "Bronze"]
       // what we want to groupby - country 
@@ -180,9 +180,7 @@ const MyGroupedBarChart = () => {
     d3.select(yAxisRef.current).call(yAxis)
 
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
   const toggleGraphExplanation = () => {

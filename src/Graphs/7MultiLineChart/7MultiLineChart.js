@@ -24,7 +24,6 @@ const MultiLineChart = () => {
   useEffect(() => {
     d3.tsv(dataLoad).then(data => {
       const columns = data.columns.slice(1);
-      console.log(columns)
       const newData = {
         y: "% Unemployment",
         series: data.map(d => ({
@@ -40,7 +39,6 @@ const MultiLineChart = () => {
   /// D3 code ///
   useEffect(() => {
     if (data){
-      console.log(data)
       /// Scales ///
       // X Scale 
       const x = d3.scaleUtc()
@@ -166,9 +164,7 @@ const MultiLineChart = () => {
         .on("mousemove", moved)
         .on("mouseleave", left);
 
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
 
 

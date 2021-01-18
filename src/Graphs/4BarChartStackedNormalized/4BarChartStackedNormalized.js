@@ -26,7 +26,6 @@ const BarChartStackedNormalzed = () => {
   /// Data load ///
   useEffect(() => {
     d3.csv(dataLoad, d3.autoType).then(d => {
-      console.log(d)
       // for each entry create col with the total of all the numeric values
       const columns = d.columns.slice(1)
       d.forEach(dataPoint => {
@@ -50,7 +49,6 @@ const BarChartStackedNormalzed = () => {
       const series = stack(data)
           .map(d => (d.forEach(v => v.key = d.key), d)) // this just adds the "key" to each col, i.e. the name of the original column
       setSeries(series)
-      console.log(series)
 
       /// Scales ///
       // X Scale 
@@ -112,8 +110,6 @@ const BarChartStackedNormalzed = () => {
       svg.append("g").call(yAxis)
 
 
-    } else {
-      console.log("Missing data")
     }
   }, [data])
 

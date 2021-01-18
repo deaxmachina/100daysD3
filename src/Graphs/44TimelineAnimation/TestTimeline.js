@@ -51,8 +51,6 @@ const TestTimeline = () => {
   useEffect(() => {
     if (data) {
 
-      console.log(data)
-
       // Note these can all be states; moving used to be a var and I set it to a state but the same refactoring can be done with the other elements as well 
       //let moving = false;
       let currentValue = 0;
@@ -154,7 +152,6 @@ const TestTimeline = () => {
         complaintsCheckbox
           .attr("fill-opacity", function(d, i, nodes) {
             const allData = d3.selectAll(nodes).data() // all data for this selection
-            console.log(allData)
             let boxesToTick;
             if (i == selectedElement - 1) { return 1 }
             else { return 0 }
@@ -202,9 +199,7 @@ const TestTimeline = () => {
         })
 
  
-    } else {
-      console.log("Missing data")
-    }
+    } 
   }, [data])
   
   return (

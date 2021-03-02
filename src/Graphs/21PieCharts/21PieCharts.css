@@ -15,10 +15,11 @@
   display: grid;
   justify-content: space-between;
   margin: auto;
-  width: 90% !important;
+  width: 95% !important;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   grid-auto-rows: minmax(100px, auto);
+  overflow: auto;
 }
 
 .decade-text {
@@ -30,6 +31,6 @@
 
 /* for the legend */
 .legend-container21 {
-  width: 60%;
+  width: 95%;
   margin: auto;
 }

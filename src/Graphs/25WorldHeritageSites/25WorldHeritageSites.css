@@ -3,6 +3,10 @@
   color: #ede0d4;
 }
 
+.sphere {
+  overflow: auto;
+}
+
 .wrapper25, .sphere {
   width: 1000px !important;
   position: relative;

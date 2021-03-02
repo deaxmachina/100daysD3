@@ -297,10 +297,9 @@ const PieCharts = () => {
       
 
       <div className="grid-wrapper21">
-      <PieChart decade="1930"/>
-      <PieChart decade="1940"/>
-      <PieChart decade="1950"/>
-
+        <PieChart decade="1930"/>
+        <PieChart decade="1940"/>
+        <PieChart decade="1950"/>
         <PieChart decade="1960"/>
         <PieChart decade="1970"/>
         <PieChart decade="1980"/>

@@ -11,7 +11,7 @@ const Hero = () => {
             100 Days of D3 
           </h1>
           <p className="hero-description">
-            Follow my journey of learning D3 with React. 
+            Follow my journey of learning D3.js with React.js
             <FontAwesomeIcon icon={faStar} size="md"/>
           </p>
           <div class="arrow"></div>

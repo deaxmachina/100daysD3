@@ -11,10 +11,13 @@ const HeroMobile = () => {
             100 Days of D3 
           </h1>
           <p className="hero-description">
-            Follow my journey of learning D3 with React. 
+            Follow my journey of learning D3.js with React.js. 
             <FontAwesomeIcon icon={faStar} size="md"/>
           </p>
-          <p>Sorry! Currently not optimised for mobile. If you have a chance please view on a device with a larger screen.</p>
+          <br />
+          <br />
+          <br />
+          <p>Sorry! Currently not optimised for mobile. If you have the chance please view on a device with a larger screen.</p>
           <div class="arrow"></div>
       </div>
     </>
